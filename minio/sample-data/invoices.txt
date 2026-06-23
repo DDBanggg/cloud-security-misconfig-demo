@@ -1,0 +1,5 @@
+Demo invoice data for cloud storage security lab.
+
+INV-001 Nguyen Van An 1200000 VND
+INV-002 Tran Thi Binh 850000 VND
+INV-003 Le Quoc Cuong 430000 VND
