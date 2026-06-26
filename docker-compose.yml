@@ -5,7 +5,7 @@ services:
     ports:
       - "5000:5000"
     environment:
-      APP_MODE: vulnerable
+      APP_MODE: fixed
       DB_HOST: postgres
       DB_PORT: "5432"
       DB_NAME: cloud_lab
@@ -16,7 +16,7 @@ services:
       MINIO_ACCESS_KEY: minioadmin
       MINIO_SECRET_KEY: minioadmin123
       MINIO_BUCKET: public-customer-data
-      SECRET_MODE: plaintext
+      SECRET_MODE: encrypted
     volumes:
       - ./secrets:/run/demo-secrets:ro
     depends_on:
@@ -46,9 +46,10 @@ services:
     environment:
       MINIO_ROOT_USER: minioadmin
       MINIO_ROOT_PASSWORD: minioadmin123
+      APP_MODE: fixed
     ports:
       - "9000:9000"
-      - "9001:9001"
+      - "9002:9001"
     volumes:
       - minio-data:/data
     networks:
@@ -64,6 +65,7 @@ services:
     environment:
       MINIO_ROOT_USER: minioadmin
       MINIO_ROOT_PASSWORD: minioadmin123
+      APP_MODE: fixed
     volumes:
       - ./minio/init-buckets.sh:/scripts/init-buckets.sh:ro
       - ./minio/sample-data:/sample-data:ro

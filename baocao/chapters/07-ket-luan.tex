@@ -1,0 +1,30 @@
+\chapter{Kết luận và hướng phát triển}
+
+\section{Tổng kết kết quả nghiên cứu}
+Báo cáo đã trình bày tổng quan về điện toán đám mây, các mô hình dịch vụ, mô hình triển khai và mô hình chia sẻ trách nhiệm. Trên cơ sở đó, báo cáo phân tích các rủi ro an toàn thông tin phổ biến như rò rỉ dữ liệu, cấu hình sai, API không an toàn, quản lý định danh yếu và lộ credential.
+
+Phần case study đã xây dựng một môi trường demo bằng Flask, PostgreSQL, MinIO và Docker Compose. Mô hình này minh họa ba lỗi thường gặp trong thực tế: public storage bucket, IAM misconfiguration và credential leakage. Kết quả trước và sau khi khắc phục cho thấy các biện pháp như private bucket, RBAC, least privilege và mã hóa secret có thể giảm đáng kể rủi ro.
+
+\section{Khuyến nghị cho doanh nghiệp}
+Khi triển khai hệ thống trên cloud, doanh nghiệp nên:
+\begin{itemize}
+    \item áp dụng least privilege cho toàn bộ tài khoản và service account;
+    \item bật MFA cho tài khoản có quyền cao;
+    \item mặc định đặt object storage ở chế độ private;
+    \item không lưu secret trực tiếp trong mã nguồn hoặc file cấu hình public;
+    \item bật logging, audit trail và cảnh báo truy cập bất thường;
+    \item định kỳ rà soát cấu hình cloud theo checklist bảo mật.
+\end{itemize}
+
+\section{Hạn chế của nghiên cứu}
+Mô hình thực nghiệm được triển khai trong môi trường local bằng Docker, chưa phản ánh đầy đủ các yếu tố của hệ thống production như high availability, autoscaling, network segmentation phức tạp, quản lý danh tính tập trung hoặc tích hợp SIEM thực tế. Ngoài ra, demo mới tập trung vào ba lỗi bảo mật tiêu biểu, chưa bao phủ toàn bộ rủi ro cloud.
+
+\section{Hướng phát triển}
+Trong tương lai, đề tài có thể được mở rộng theo các hướng sau:
+\begin{itemize}
+    \item triển khai demo trên một nền tảng cloud thật như AWS, Azure hoặc Google Cloud;
+    \item bổ sung WAF, rate limiting và giám sát log tập trung;
+    \item tích hợp alert cho các hành vi như truy cập object bị từ chối hoặc đăng nhập admin thất bại;
+    \item mở rộng demo sang container security và Kubernetes security;
+    \item đánh giá thêm các mô hình như Zero Trust và Confidential Computing.
+\end{itemize}

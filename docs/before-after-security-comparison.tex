@@ -1,0 +1,31 @@
+\begin{table}[H]
+\centering
+\caption{So sánh trạng thái hệ thống trước và sau khi áp dụng biện pháp bảo mật}
+\label{tab:before-after-security}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabular}{|p{3.2cm}|p{5.4cm}|p{5.4cm}|}
+\hline
+\textbf{Nội dung đánh giá} & \textbf{Trước khi khắc phục} & \textbf{Sau khi khắc phục} \\
+\hline
+Public Storage Bucket &
+Bucket \texttt{public-customer-data} được cấu hình công khai. Người dùng có thể mở trực tiếp đường dẫn object như \texttt{customers.csv} mà không cần xác thực. &
+Bucket được chuyển sang chế độ riêng tư. Khi truy cập trực tiếp object, hệ thống từ chối yêu cầu hoặc yêu cầu thông tin xác thực hợp lệ. \\
+\hline
+IAM Misconfiguration &
+Tài khoản người dùng thường \texttt{alice} bị cấp nhầm quyền quản trị và có thể truy cập trang \texttt{/admin}. &
+Quyền truy cập được kiểm tra theo vai trò. Tài khoản \texttt{alice} không còn truy cập được trang quản trị. \\
+\hline
+Credential Leakage &
+Thông tin nhạy cảm như mật khẩu cơ sở dữ liệu, access key và secret key được đặt trực tiếp trong cấu hình ở dạng rõ. &
+Secret được tách khỏi mã nguồn và lưu dưới dạng đã mã hóa. Ứng dụng chỉ giải mã khi cần sử dụng trong môi trường runtime. \\
+\hline
+Khả năng giám sát &
+Việc phát hiện truy cập bất thường còn phụ thuộc vào quan sát thủ công trong quá trình demo. &
+Hệ thống có thể mở rộng bằng audit log, cảnh báo truy cập trái phép và theo dõi các chỉ số như MTTD, MTTR. \\
+\hline
+Tác động bảo mật &
+Dữ liệu khách hàng và thông tin cấu hình có nguy cơ bị lộ nếu attacker truy cập được endpoint hoặc repository. &
+Giảm nguy cơ rò rỉ dữ liệu, giới hạn quyền theo nguyên tắc least privilege và giảm thiểu tác động khi cấu hình bị lộ. \\
+\hline
+\end{tabular}
+\end{table}

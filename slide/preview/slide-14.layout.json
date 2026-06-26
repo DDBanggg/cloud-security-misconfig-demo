@@ -1,0 +1,554 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/8pajzg",
+    "id": "8pajzg",
+    "slide": 14,
+    "layoutId": "ab195c25-470c-4ece-9275-b2ac404119c7",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "097bd0f2-067b-434c-b209-06ac3ad660f6",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ab195c25-470c-4ece-9275-b2ac404119c7",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "097bd0f2-067b-434c-b209-06ac3ad660f6",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "097bd0f2-067b-434c-b209-06ac3ad660f6",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m1cfa9w3",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        52
+      ],
+      "geometry": "rect",
+      "fillColor": "#1F4E79",
+      "lineColor": "#1F4E79",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tsvu9kni",
+      "id": "2",
+      "bbox": [
+        56,
+        10,
+        980,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Kết luận và demo trực tiếp",
+      "textPreview": "Kết luận và demo trực tiếp",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Kết luận và demo trực tiếp"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Kết luận và demo trực tiếp",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Kết luận và demo trực tiếp",
+              "fontSize": 28,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/47y1kre1",
+      "id": "3",
+      "bbox": [
+        1160,
+        12,
+        70,
+        32
+      ],
+      "geometry": "rect",
+      "text": "14",
+      "textPreview": "14",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#D9EAF7",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "14"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "14",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#D9EAF7",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "14",
+              "fontSize": 18,
+              "color": "#D9EAF7",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bat47y1k",
+      "id": "4",
+      "bbox": [
+        80,
+        120,
+        690,
+        250
+      ],
+      "geometry": "rect",
+      "text": "• Cloud security phụ thuộc mạnh vào cấu hình và phân quyền\n• Ba lỗi demo đều phổ biến: public bucket, quyền quá mức, secret plaintext\n• Biện pháp chính: private-by-default, least privilege, encrypted secret, audit log",
+      "textPreview": "• Cloud security phụ thuộc mạnh vào cấu hình và phân quyền | • Ba lỗi demo đều phổ biến: public bucket, quyền quá mức, secret plaintext |...",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#17324D",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• Cloud security phụ thuộc mạnh vào cấu hình và phân quyền"
+          },
+          {
+            "index": 2,
+            "text": "• Ba lỗi demo đều phổ biến: public bucket, quyền quá mức, secret"
+          },
+          {
+            "index": 3,
+            "text": "plaintext"
+          },
+          {
+            "index": 4,
+            "text": "• Biện pháp chính: private-by-default, least privilege, encrypted"
+          },
+          {
+            "index": 5,
+            "text": "secret, audit log"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• Cloud security phụ thuộc mạnh vào cấu hình và phân quyền",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#17324D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Cloud security phụ thuộc mạnh vào cấu hình và phân quyền",
+              "fontSize": 25,
+              "color": "#17324D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "• Ba lỗi demo đều phổ biến: public bucket, quyền quá mức, secret plaintext",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#17324D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Ba lỗi demo đều phổ biến: public bucket, quyền quá mức, secret plaintext",
+              "fontSize": 25,
+              "color": "#17324D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "• Biện pháp chính: private-by-default, least privilege, encrypted secret, audit log",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#17324D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Biện pháp chính: private-by-default, least privilege, encrypted secret, audit log",
+              "fontSize": 25,
+              "color": "#17324D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mp0bi9s3",
+      "id": "5",
+      "bbox": [
+        830,
+        130,
+        310,
+        300
+      ],
+      "geometry": "roundRect",
+      "text": "Live demo đề xuất\n1. /storage public object\n2. alice truy cập /admin\n3. chuyển sang fixed\n4. object/admin bị chặn",
+      "textPreview": "Live demo đề xuất | 1. /storage public object | 2. alice truy cập /admin | 3. chuyển sang fixed | 4. object/admin bị chặn",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#1F4E79",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Live demo đề xuất"
+          },
+          {
+            "index": 2,
+            "text": "1. /storage public object"
+          },
+          {
+            "index": 3,
+            "text": "2. alice truy cập /admin"
+          },
+          {
+            "index": 4,
+            "text": "3. chuyển sang fixed"
+          },
+          {
+            "index": 5,
+            "text": "4. object/admin bị chặn"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Live demo đề xuất",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#1F4E79",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Live demo đề xuất",
+              "fontSize": 22,
+              "color": "#1F4E79",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "1. /storage public object",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#1F4E79",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1. /storage public object",
+              "fontSize": 22,
+              "color": "#1F4E79",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "2. alice truy cập /admin",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#1F4E79",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2. alice truy cập /admin",
+              "fontSize": 22,
+              "color": "#1F4E79",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "3. chuyển sang fixed",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#1F4E79",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3. chuyển sang fixed",
+              "fontSize": 22,
+              "color": "#1F4E79",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "4. object/admin bị chặn",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#1F4E79",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4. object/admin bị chặn",
+              "fontSize": 22,
+              "color": "#1F4E79",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#F4F8FC",
+      "lineColor": "#1F4E79",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tgfmlkjm",
+      "id": "6",
+      "bbox": [
+        95,
+        535,
+        1030,
+        54
+      ],
+      "geometry": "rect",
+      "text": "Thông điệp chính: cấu hình nhỏ có thể tạo rủi ro lớn, nhưng kiểm soát đúng giúp giảm đáng kể bề mặt tấn công.",
+      "textPreview": "Thông điệp chính: cấu hình nhỏ có thể tạo rủi ro lớn, nhưng kiểm soát đúng giúp giảm đáng kể bề mặt tấn công.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#17324D",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Thông điệp chính: cấu hình nhỏ có thể tạo rủi ro lớn, nhưng kiểm soát đúng giúp giảm đáng kể bề"
+          },
+          {
+            "index": 2,
+            "text": "mặt tấn công."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Thông điệp chính: cấu hình nhỏ có thể tạo rủi ro lớn, nhưng kiểm soát đúng giúp giảm đáng kể bề mặt tấn công.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#17324D",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Thông điệp chính: cấu hình nhỏ có thể tạo rủi ro lớn, nhưng kiểm soát đúng giúp giảm đáng kể bề mặt tấn công.",
+              "fontSize": 24,
+              "color": "#17324D",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

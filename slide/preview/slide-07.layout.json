@@ -1,0 +1,340 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/wircoy",
+    "id": "wircoy",
+    "slide": 7,
+    "layoutId": "ab195c25-470c-4ece-9275-b2ac404119c7",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "097bd0f2-067b-434c-b209-06ac3ad660f6",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ab195c25-470c-4ece-9275-b2ac404119c7",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "097bd0f2-067b-434c-b209-06ac3ad660f6",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "097bd0f2-067b-434c-b209-06ac3ad660f6",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fyxobm58",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        52
+      ],
+      "geometry": "rect",
+      "fillColor": "#1F4E79",
+      "lineColor": "#1F4E79",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8jqh0fep",
+      "id": "2",
+      "bbox": [
+        56,
+        10,
+        980,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Lỗi 1: Public Storage Bucket",
+      "textPreview": "Lỗi 1: Public Storage Bucket",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Lỗi 1: Public Storage Bucket"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Lỗi 1: Public Storage Bucket",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Lỗi 1: Public Storage Bucket",
+              "fontSize": 28,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4nap4r6",
+      "id": "3",
+      "bbox": [
+        1160,
+        12,
+        70,
+        32
+      ],
+      "geometry": "rect",
+      "text": "07",
+      "textPreview": "07",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#D9EAF7",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "07"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "07",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#D9EAF7",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "07",
+              "fontSize": 18,
+              "color": "#D9EAF7",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/nyd0z610",
+      "id": "4",
+      "bbox": [
+        70,
+        115,
+        530,
+        350
+      ],
+      "alt": "06-storage-public-bucket.png",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "08e4c399-df6f-4b6c-94ff-84e82a6f7fde",
+        "contentType": "image/png",
+        "byteLength": 54346
+      }
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/udg7adsj",
+      "id": "5",
+      "bbox": [
+        650,
+        115,
+        530,
+        350
+      ],
+      "alt": "07-public-object-customers-csv.png",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "71a11399-264a-4030-a429-09472d0356c2",
+        "contentType": "image/png",
+        "byteLength": 70605
+      }
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8v6psfil",
+      "id": "6",
+      "bbox": [
+        220,
+        500,
+        800,
+        76
+      ],
+      "geometry": "roundRect",
+      "text": "Object customers.csv có thể mở trực tiếp qua URL\nkhông cần xác thực",
+      "textPreview": "Object customers.csv có thể mở trực tiếp qua URL | không cần xác thực",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#B3261E",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Object customers.csv có thể mở trực tiếp qua URL"
+          },
+          {
+            "index": 2,
+            "text": "không cần xác thực"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Object customers.csv có thể mở trực tiếp qua URL",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#B3261E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Object customers.csv có thể mở trực tiếp qua URL",
+              "fontSize": 22,
+              "color": "#B3261E",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "không cần xác thực",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#B3261E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "không cần xác thực",
+              "fontSize": 22,
+              "color": "#B3261E",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFF2F0",
+      "lineColor": "#B3261E",
+      "lineWidth": 1
+    }
+  ],
+  "composeRuns": []
+}

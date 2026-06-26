@@ -1,0 +1,43 @@
+\chapter{Tổng quan về điện toán đám mây}
+
+\section{Khái niệm điện toán đám mây}
+Điện toán đám mây là mô hình cung cấp tài nguyên công nghệ thông tin theo nhu cầu thông qua mạng Internet. Các tài nguyên này có thể bao gồm máy chủ, lưu trữ, cơ sở dữ liệu, mạng, nền tảng phát triển phần mềm và ứng dụng hoàn chỉnh. Người dùng không cần trực tiếp quản lý hạ tầng vật lý mà có thể thuê và sử dụng theo mức tiêu thụ thực tế.
+
+Theo NIST, điện toán đám mây có năm đặc trưng cơ bản: tự phục vụ theo nhu cầu, truy cập rộng qua mạng, gộp tài nguyên, co giãn nhanh và đo lường dịch vụ. Các đặc trưng này giúp cloud trở thành nền tảng phù hợp cho hệ thống cần mở rộng nhanh, triển khai linh hoạt và tối ưu chi phí.
+
+\section{Các mô hình dịch vụ}
+\subsection{IaaS}
+IaaS cung cấp hạ tầng như máy chủ ảo, ổ đĩa, mạng và firewall. Khách hàng kiểm soát hệ điều hành, ứng dụng và dữ liệu. Mô hình này linh hoạt nhưng yêu cầu người dùng có năng lực quản trị hệ thống.
+
+\subsection{PaaS}
+PaaS cung cấp môi trường chạy ứng dụng, middleware và công cụ phát triển. Nhà cung cấp quản lý phần lớn hạ tầng, còn người dùng tập trung vào mã nguồn và dữ liệu ứng dụng.
+
+\subsection{SaaS}
+SaaS cung cấp phần mềm hoàn chỉnh qua Internet. Người dùng chỉ sử dụng ứng dụng mà không cần quản trị hạ tầng hoặc nền tảng bên dưới.
+
+\begin{table}[H]
+\centering
+\caption{So sánh các mô hình dịch vụ cloud}
+\begin{tabularx}{\textwidth}{|X|X|X|X|}
+\hline
+\textbf{Tiêu chí} & \textbf{IaaS} & \textbf{PaaS} & \textbf{SaaS} \\
+\hline
+Mức kiểm soát & Cao & Trung bình & Thấp \\
+\hline
+Đối tượng chính & Quản trị hệ thống & Lập trình viên & Người dùng cuối \\
+\hline
+Khách hàng quản lý & OS, app, dữ liệu & App, dữ liệu & Cấu hình sử dụng \\
+\hline
+Ví dụ & VM, storage, network & App platform & Email, office suite \\
+\hline
+\end{tabularx}
+\end{table}
+
+\section{Các mô hình triển khai}
+\textbf{Public Cloud} là mô hình cloud do nhà cung cấp bên thứ ba vận hành, nhiều khách hàng cùng sử dụng hạ tầng chung. \textbf{Private Cloud} phục vụ riêng một tổ chức, có mức kiểm soát cao hơn nhưng chi phí lớn hơn. \textbf{Hybrid Cloud} kết hợp public và private cloud. \textbf{Multi-Cloud} sử dụng nhiều nhà cung cấp cloud để giảm phụ thuộc và tăng tính linh hoạt.
+
+\section{Shared Responsibility Model}
+Mô hình chia sẻ trách nhiệm là nguyên tắc quan trọng trong bảo mật cloud. Nhà cung cấp chịu trách nhiệm bảo vệ hạ tầng bên dưới, còn khách hàng chịu trách nhiệm bảo vệ dữ liệu, tài khoản, cấu hình dịch vụ và ứng dụng của mình. Rất nhiều sự cố cloud xảy ra khi khách hàng hiểu sai ranh giới trách nhiệm này.
+
+\section{Vai trò của cloud trong doanh nghiệp}
+Cloud giúp doanh nghiệp triển khai sản phẩm nhanh hơn, mở rộng hệ thống theo lưu lượng thực tế, tối ưu chi phí ban đầu và tiếp cận các dịch vụ bảo mật hiện đại. Tuy nhiên, lợi ích này chỉ đạt được khi hệ thống được thiết kế và vận hành với tư duy bảo mật ngay từ đầu.

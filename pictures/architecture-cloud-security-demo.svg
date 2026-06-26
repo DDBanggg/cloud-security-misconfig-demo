@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2f3a4a"/>
+    </marker>
+    <style>
+      .title { font: 700 34px Arial, sans-serif; fill: #172033; }
+      .subtitle { font: 400 18px Arial, sans-serif; fill: #526173; }
+      .label { font: 700 22px Arial, sans-serif; fill: #172033; }
+      .text { font: 400 17px Arial, sans-serif; fill: #344256; }
+      .small { font: 400 15px Arial, sans-serif; fill: #526173; }
+      .box { fill: #ffffff; stroke: #9aa8ba; stroke-width: 2; rx: 10; }
+      .risk { fill: #fff5f5; stroke: #d64545; stroke-width: 2; rx: 10; }
+      .secure { fill: #f0fbf5; stroke: #2e9d61; stroke-width: 2; rx: 10; }
+      .net { fill: #f4f7fb; stroke: #7f90a8; stroke-width: 2; stroke-dasharray: 10 8; rx: 16; }
+      .line { stroke: #2f3a4a; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+      .mutedline { stroke: #7f90a8; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1400" height="820" fill="#f7f9fc"/>
+
+  <text x="70" y="70" class="title">Kien truc he thong Cloud Security Demo</text>
+  <text x="70" y="104" class="subtitle">Mo phong Web App Flask, PostgreSQL va MinIO de minh hoa rui ro bao mat tren moi truong cloud</text>
+
+  <rect x="60" y="150" width="1280" height="560" class="net"/>
+  <text x="90" y="190" class="label">Docker network: cloud-lab</text>
+
+  <rect x="100" y="300" width="250" height="135" class="box"/>
+  <text x="130" y="345" class="label">Nguoi dung</text>
+  <text x="130" y="378" class="text">Trinh duyet web</text>
+  <text x="130" y="405" class="small">localhost:5000</text>
+
+  <rect x="100" y="500" width="250" height="135" class="risk"/>
+  <text x="130" y="545" class="label">Attacker</text>
+  <text x="130" y="578" class="text">Truy cap object public</text>
+  <text x="130" y="605" class="small">localhost:9000</text>
+
+  <rect x="520" y="270" width="320" height="195" class="box"/>
+  <text x="555" y="320" class="label">Flask Web App</text>
+  <text x="555" y="354" class="text">Container: nmattt-web</text>
+  <text x="555" y="383" class="small">Dang nhap, customers, storage, admin</text>
+  <text x="555" y="412" class="small">APP_MODE: vulnerable / fixed</text>
+  <text x="555" y="441" class="small">SECRET_MODE: plaintext / encrypted</text>
+
+  <rect x="980" y="235" width="290" height="150" class="box"/>
+  <text x="1015" y="282" class="label">PostgreSQL</text>
+  <text x="1015" y="318" class="text">Container: nmattt-postgres</text>
+  <text x="1015" y="347" class="small">Du lieu khach hang, audit log</text>
+
+  <rect x="980" y="475" width="290" height="170" class="risk"/>
+  <text x="1015" y="522" class="label">MinIO Object Storage</text>
+  <text x="1015" y="558" class="text">Bucket: public-customer-data</text>
+  <text x="1015" y="587" class="small">API: localhost:9000</text>
+  <text x="1015" y="616" class="small">Console: localhost:9001</text>
+
+  <rect x="520" y="540" width="320" height="105" class="secure"/>
+  <text x="555" y="582" class="label">Secret protection</text>
+  <text x="555" y="615" class="text">Fernet encrypted secret file</text>
+
+  <path d="M350 368 L520 368" class="line"/>
+  <path d="M840 330 L980 310" class="line"/>
+  <path d="M840 405 L980 548" class="line"/>
+  <path d="M350 568 L980 568" class="mutedline"/>
+  <path d="M680 540 L680 465" class="mutedline"/>
+
+  <text x="395" y="350" class="small">HTTP request</text>
+  <text x="870" y="295" class="small">SQL query</text>
+  <text x="865" y="470" class="small">S3 API</text>
+  <text x="470" y="552" class="small">Public object access when bucket is misconfigured</text>
+
+  <rect x="70" y="735" width="1260" height="48" fill="#ffffff" stroke="#c5cfdb" stroke-width="1" rx="8"/>
+  <text x="95" y="766" class="small">Cac diem rui ro minh hoa: Public Storage Bucket, IAM Misconfiguration, Credential Leakage. Ban fixed ap dung private bucket, phan quyen dung va secret da ma hoa.</text>
+</svg>

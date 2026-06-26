@@ -1,0 +1,407 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/6ej8g5",
+    "id": "6ej8g5",
+    "slide": 1,
+    "layoutId": "ab195c25-470c-4ece-9275-b2ac404119c7",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "097bd0f2-067b-434c-b209-06ac3ad660f6",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ab195c25-470c-4ece-9275-b2ac404119c7",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "097bd0f2-067b-434c-b209-06ac3ad660f6",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "097bd0f2-067b-434c-b209-06ac3ad660f6",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7qpg3ex0",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#F4F8FC",
+      "lineColor": "#F4F8FC",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0bi9s36h",
+      "id": "2",
+      "bbox": [
+        70,
+        120,
+        760,
+        150
+      ],
+      "geometry": "rect",
+      "text": "Điện toán đám mây và\nBảo mật điện toán đám mây",
+      "textPreview": "Điện toán đám mây và | Bảo mật điện toán đám mây",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "fontSize": 48,
+        "typeface": "+mn-lt",
+        "color": "#17324D",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Điện toán đám mây và"
+          },
+          {
+            "index": 2,
+            "text": "Bảo mật điện toán đám mây"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Điện toán đám mây và",
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "color": "#17324D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Điện toán đám mây và",
+              "fontSize": 48,
+              "color": "#17324D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Bảo mật điện toán đám mây",
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "color": "#17324D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Bảo mật điện toán đám mây",
+              "fontSize": 48,
+              "color": "#17324D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pwb2hwfy",
+      "id": "3",
+      "bbox": [
+        74,
+        294,
+        780,
+        40
+      ],
+      "geometry": "rect",
+      "text": "Phân tích rủi ro, lỗ hổng và cơ chế bảo vệ dữ liệu",
+      "textPreview": "Phân tích rủi ro, lỗ hổng và cơ chế bảo vệ dữ liệu",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#5F6B7A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Phân tích rủi ro, lỗ hổng và cơ chế bảo vệ dữ liệu"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Phân tích rủi ro, lỗ hổng và cơ chế bảo vệ dữ liệu",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#5F6B7A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Phân tích rủi ro, lỗ hổng và cơ chế bảo vệ dữ liệu",
+              "fontSize": 24,
+              "color": "#5F6B7A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ed8v6psf",
+      "id": "4",
+      "bbox": [
+        74,
+        540,
+        780,
+        78
+      ],
+      "geometry": "rect",
+      "text": "Nhập môn An toàn thông tin\nNhóm: Đào Trường Anh, Nguyễn Đồng Minh Anh, Đoàn Đình Bằng",
+      "textPreview": "Nhập môn An toàn thông tin | Nhóm: Đào Trường Anh, Nguyễn Đồng Minh Anh, Đoàn Đình Bằng",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#17324D",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Nhập môn An toàn thông tin"
+          },
+          {
+            "index": 2,
+            "text": "Nhóm: Đào Trường Anh, Nguyễn Đồng Minh Anh, Đoàn Đình Bằng"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Nhập môn An toàn thông tin",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#17324D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Nhập môn An toàn thông tin",
+              "fontSize": 19,
+              "color": "#17324D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Nhóm: Đào Trường Anh, Nguyễn Đồng Minh Anh, Đoàn Đình Bằng",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#17324D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Nhóm: Đào Trường Anh, Nguyễn Đồng Minh Anh, Đoàn Đình Bằng",
+              "fontSize": 19,
+              "color": "#17324D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7y1kre1w",
+      "id": "5",
+      "bbox": [
+        880,
+        170,
+        300,
+        260
+      ],
+      "geometry": "roundRect",
+      "text": "Cloud Security Demo\nFlask + PostgreSQL + MinIO",
+      "textPreview": "Cloud Security Demo | Flask + PostgreSQL + MinIO",
+      "resolvedFontSize": 26,
+      "resolvedTextStyle": {
+        "fontSize": 26,
+        "typeface": "+mn-lt",
+        "color": "#1F4E79",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Cloud Security Demo"
+          },
+          {
+            "index": 2,
+            "text": "Flask + PostgreSQL +"
+          },
+          {
+            "index": 3,
+            "text": "MinIO"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Cloud Security Demo",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "color": "#1F4E79",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Cloud Security Demo",
+              "fontSize": 26,
+              "color": "#1F4E79",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Flask + PostgreSQL + MinIO",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "color": "#1F4E79",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Flask + PostgreSQL + MinIO",
+              "fontSize": 26,
+              "color": "#1F4E79",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#1F4E79",
+      "lineWidth": 1
+    }
+  ],
+  "composeRuns": []
+}

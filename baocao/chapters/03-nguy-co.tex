@@ -1,0 +1,25 @@
+\chapter{Các nguy cơ an toàn thông tin trên điện toán đám mây}
+
+\section{Mô hình CIA}
+Ba mục tiêu cơ bản của an toàn thông tin là bảo mật, toàn vẹn và sẵn sàng. Trong môi trường cloud, dữ liệu cần được bảo vệ khỏi truy cập trái phép, không bị thay đổi ngoài ý muốn và luôn sẵn sàng khi người dùng hợp lệ cần sử dụng.
+
+\section{Rò rỉ dữ liệu}
+Rò rỉ dữ liệu có thể xảy ra khi dữ liệu nhạy cảm được lưu trong bucket công khai, database mở cổng ra Internet, secret bị commit lên repository hoặc API trả về quá nhiều thông tin. Đây là một trong những rủi ro nghiêm trọng nhất vì ảnh hưởng trực tiếp đến khách hàng, uy tín và trách nhiệm pháp lý của tổ chức.
+
+\section{Cấu hình sai}
+Cấu hình sai là nguyên nhân phổ biến của sự cố cloud. Ví dụ: object storage public, security group mở toàn bộ cổng, IAM policy cấp quyền quá rộng, logging bị tắt hoặc khóa mã hóa không được xoay vòng. Điểm nguy hiểm là lỗi cấu hình thường rất nhỏ nhưng có thể tạo ra hậu quả lớn.
+
+\section{API không an toàn}
+Cloud service và web application thường giao tiếp qua API. Nếu API thiếu xác thực, thiếu phân quyền, không kiểm tra input hoặc không giới hạn tốc độ, attacker có thể khai thác để đọc dữ liệu, sửa dữ liệu hoặc gây quá tải hệ thống.
+
+\section{Quản lý định danh yếu kém}
+Tài khoản cloud thường có quyền truy cập nhiều tài nguyên quan trọng. Nếu không bật MFA, dùng mật khẩu yếu hoặc cấp quyền vượt nhu cầu, attacker có thể chiếm tài khoản và mở rộng quyền truy cập trong hệ thống.
+
+\section{Mối đe dọa nội bộ}
+Insider threat đến từ nhân viên, nhà thầu hoặc tài khoản nội bộ bị chiếm quyền. Trong cloud, insider có thể sao chép dữ liệu, thay đổi cấu hình, xóa log hoặc tạo backdoor nếu quyền truy cập không được giới hạn và giám sát.
+
+\section{Lỗ hổng công nghệ dùng chung}
+Cloud dựa trên ảo hóa, container, hypervisor và hạ tầng dùng chung. Nếu có lỗi ở lớp nền tảng hoặc cấu hình cô lập tenant không đúng, rủi ro có thể lan rộng giữa các môi trường khác nhau.
+
+\section{Tấn công từ chối dịch vụ}
+DDoS làm cạn tài nguyên mạng, CPU, memory hoặc quota dịch vụ. Dù cloud có khả năng mở rộng, hệ thống vẫn cần rate limiting, autoscaling hợp lý, CDN, WAF và cơ chế cảnh báo để giảm tác động.

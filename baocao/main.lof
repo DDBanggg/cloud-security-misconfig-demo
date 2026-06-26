@@ -1,0 +1,39 @@
+\xpginauxfiletrue 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\setforeignlanguage {vietnamese}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\setforeignlanguage {vietnamese}
+\addvspace {10\p@ }
+\setforeignlanguage {vietnamese}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Kiến trúc hệ thống Cloud Security Demo}}{11}{figure.caption.6}%
+\setforeignlanguage {vietnamese}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Các container của môi trường demo đang hoạt động}}{12}{figure.caption.7}%
+\setforeignlanguage {vietnamese}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Dữ liệu khách hàng được đọc từ PostgreSQL}}{12}{figure.caption.8}%
+\setforeignlanguage {vietnamese}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Bucket \texttt {public-customer-data} trên MinIO Console}}{13}{figure.caption.9}%
+\setforeignlanguage {vietnamese}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Bucket công khai trong chế độ vulnerable}}{14}{figure.caption.10}%
+\setforeignlanguage {vietnamese}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Truy cập trực tiếp object \texttt {customers.csv} không cần xác thực}}{14}{figure.caption.11}%
+\setforeignlanguage {vietnamese}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Tài khoản \texttt {alice} truy cập được trang admin trong chế độ vulnerable}}{15}{figure.caption.12}%
+\setforeignlanguage {vietnamese}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Credential được hiển thị ở dạng rõ trong chế độ vulnerable}}{15}{figure.caption.13}%
+\setforeignlanguage {vietnamese}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Cấu hình trước khi khắc phục: \texttt {APP\_MODE=vulnerable}, \texttt {SECRET\_MODE=plaintext}}}{16}{figure.caption.14}%
+\setforeignlanguage {vietnamese}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Cấu hình sau khi khắc phục: \texttt {APP\_MODE=fixed}, \texttt {SECRET\_MODE=encrypted}}}{17}{figure.caption.15}%
+\setforeignlanguage {vietnamese}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Tài khoản \texttt {alice} bị chặn khỏi trang admin sau khi khắc phục}}{17}{figure.caption.16}%
+\setforeignlanguage {vietnamese}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Truy cập trực tiếp object bị từ chối sau khi bucket chuyển sang private}}{18}{figure.caption.17}%
+\setforeignlanguage {vietnamese}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Secret được tách riêng và mã hóa trong chế độ fixed}}{18}{figure.caption.18}%
+\setforeignlanguage {vietnamese}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\xpginauxfilefalse 

@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+
+\bibitem{csa}
+{Cloud Security Alliance}.
+\newblock Security guidance for critical areas of focus in cloud computing,
+  2021.
+
+\bibitem{iso27001}
+{International Organization for Standardization}.
+\newblock Iso/iec 27001 information security management, 2022.
+
+\bibitem{nist800144}
+{National Institute of Standards and Technology}.
+\newblock Guidelines on security and privacy in public cloud computing, 2011.
+\newblock Special Publication 800-144.
+
+\bibitem{nist800145}
+{National Institute of Standards and Technology}.
+\newblock The nist definition of cloud computing, 2011.
+\newblock Special Publication 800-145.
+
+\bibitem{owaspapi}
+{OWASP Foundation}.
+\newblock Owasp api security top 10, 2023.
+
+\end{thebibliography}

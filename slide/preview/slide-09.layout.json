@@ -1,0 +1,315 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/t6rpbd",
+    "id": "t6rpbd",
+    "slide": 9,
+    "layoutId": "ab195c25-470c-4ece-9275-b2ac404119c7",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "097bd0f2-067b-434c-b209-06ac3ad660f6",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ab195c25-470c-4ece-9275-b2ac404119c7",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "097bd0f2-067b-434c-b209-06ac3ad660f6",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "097bd0f2-067b-434c-b209-06ac3ad660f6",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0fepkzup",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        52
+      ],
+      "geometry": "rect",
+      "fillColor": "#1F4E79",
+      "lineColor": "#1F4E79",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bulwval8",
+      "id": "2",
+      "bbox": [
+        56,
+        10,
+        980,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Lỗi 3: Credential Leakage",
+      "textPreview": "Lỗi 3: Credential Leakage",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Lỗi 3: Credential Leakage"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Lỗi 3: Credential Leakage",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Lỗi 3: Credential Leakage",
+              "fontSize": 28,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i9s36hcr",
+      "id": "3",
+      "bbox": [
+        1160,
+        12,
+        70,
+        32
+      ],
+      "geometry": "rect",
+      "text": "09",
+      "textPreview": "09",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#D9EAF7",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "09"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "09",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#D9EAF7",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "09",
+              "fontSize": 18,
+              "color": "#D9EAF7",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/o7qpg3ex",
+      "id": "4",
+      "bbox": [
+        80,
+        115,
+        610,
+        365
+      ],
+      "alt": "09-config-risk-plaintext.png",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "4a9aa5e6-95b4-44b1-8408-dc7eff9b2713",
+        "contentType": "image/png",
+        "byteLength": 51460
+      }
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/dsji5sne",
+      "id": "5",
+      "bbox": [
+        735,
+        115,
+        405,
+        365
+      ],
+      "alt": "11-1-before.png",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "2b63b17b-aba4-4e3f-8c1f-583de3ade079",
+        "contentType": "image/png",
+        "byteLength": 97971
+      }
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bi9s36hc",
+      "id": "6",
+      "bbox": [
+        160,
+        520,
+        900,
+        64
+      ],
+      "geometry": "roundRect",
+      "text": "DB password, access key và secret key xuất hiện ở dạng rõ",
+      "textPreview": "DB password, access key và secret key xuất hiện ở dạng rõ",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#B3261E",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DB password, access key và secret key xuất hiện ở dạng rõ"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DB password, access key và secret key xuất hiện ở dạng rõ",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#B3261E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "DB password, access key và secret key xuất hiện ở dạng rõ",
+              "fontSize": 22,
+              "color": "#B3261E",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFF2F0",
+      "lineColor": "#B3261E",
+      "lineWidth": 1
+    }
+  ],
+  "composeRuns": []
+}

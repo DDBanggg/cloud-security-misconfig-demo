@@ -1,0 +1,33 @@
+\chapter{Mở đầu}
+
+\section{Lý do chọn đề tài}
+Điện toán đám mây đã trở thành nền tảng quan trọng trong quá trình chuyển đổi số của doanh nghiệp, trường học và các tổ chức nhà nước. Thay vì đầu tư toàn bộ hạ tầng vật lý, tổ chức có thể thuê máy chủ, lưu trữ, cơ sở dữ liệu và dịch vụ bảo mật thông qua Internet. Mô hình này giúp triển khai nhanh, mở rộng linh hoạt và tối ưu chi phí vận hành.
+
+Tuy nhiên, môi trường đám mây cũng tạo ra nhiều rủi ro an toàn thông tin. Dữ liệu có thể bị rò rỉ do bucket lưu trữ công khai, tài khoản bị cấp quyền quá mức, API thiếu kiểm soát, secret bị đặt trực tiếp trong cấu hình hoặc hệ thống thiếu giám sát. Các sự cố này thường không xuất phát từ lỗi của nhà cung cấp dịch vụ, mà đến từ việc người dùng cấu hình sai hoặc chưa hiểu rõ mô hình chia sẻ trách nhiệm.
+
+Vì vậy, đề tài ``Điện toán đám mây và bảo mật điện toán đám mây'' được thực hiện nhằm hệ thống hóa kiến thức nền tảng, phân tích các rủi ro phổ biến và xây dựng một mô hình demo nhỏ để minh họa quá trình phát hiện và khắc phục lỗi bảo mật trong môi trường cloud.
+
+\section{Mục tiêu nghiên cứu}
+Đề tài hướng đến các mục tiêu chính sau:
+\begin{itemize}
+    \item Trình bày khái niệm, đặc trưng, mô hình dịch vụ và mô hình triển khai của điện toán đám mây.
+    \item Phân tích các rủi ro an toàn thông tin thường gặp trên cloud, đặc biệt là rò rỉ dữ liệu, cấu hình sai, quản lý định danh yếu và lộ thông tin nhạy cảm.
+    \item Trình bày các cơ chế bảo vệ như mã hóa, quản lý khóa, IAM, MFA, WAF, logging, monitoring và Zero Trust.
+    \item Xây dựng case study với Flask, PostgreSQL, MinIO và Docker Compose để minh họa ba lỗi bảo mật: public storage bucket, IAM misconfiguration và credential leakage.
+    \item Đề xuất khuyến nghị giúp vận hành hệ thống cloud an toàn hơn.
+\end{itemize}
+
+\section{Phạm vi nghiên cứu}
+Báo cáo tập trung vào các nguyên lý và rủi ro phổ biến trong môi trường cloud ở mức nhập môn. Phần thực nghiệm sử dụng mô hình local bằng Docker để giả lập một hệ thống cloud nhỏ, gồm web application, cơ sở dữ liệu và object storage. Báo cáo không đi sâu vào triển khai production trên một nền tảng cụ thể như AWS, Microsoft Azure hoặc Google Cloud Platform.
+
+\section{Phương pháp nghiên cứu}
+Nhóm sử dụng bốn phương pháp chính:
+\begin{itemize}
+    \item \textbf{Nghiên cứu tài liệu:} tổng hợp kiến thức từ tài liệu chuẩn như NIST, CSA, ISO/IEC và OWASP.
+    \item \textbf{Phân tích và tổng hợp:} phân loại các nguy cơ theo nhóm rủi ro và cơ chế phòng thủ tương ứng.
+    \item \textbf{So sánh đánh giá:} đối chiếu trạng thái trước và sau khi áp dụng biện pháp bảo mật.
+    \item \textbf{Nghiên cứu tình huống:} xây dựng demo để quan sát tác động của lỗi cấu hình và cách khắc phục.
+\end{itemize}
+
+\section{Bố cục báo cáo}
+Báo cáo gồm bảy chương. Chương 1 giới thiệu đề tài. Chương 2 trình bày tổng quan điện toán đám mây. Chương 3 phân tích các nguy cơ an toàn thông tin. Chương 4 trình bày các cơ chế bảo mật. Chương 5 nói về quản lý rủi ro và tuân thủ. Chương 6 là case study thực nghiệm. Chương 7 tổng kết và nêu hướng phát triển.

@@ -144,7 +144,18 @@ def storage():
     for obj in objects:
         key = obj["Key"]
         public_url = f"http://{config.MINIO_PUBLIC_ENDPOINT}/{config.MINIO_BUCKET}/{key}"
-        links += f"<li><a href='{public_url}'>{public_url}</a></li>"
+        if config.APP_MODE == "vulnerable":
+            links += f"<li><a href='{public_url}'>{public_url}</a></li>"
+        else:
+            links += f"<li><code>{key}</code> - private object, khong hien public download link</li>"
+    if config.APP_MODE != "vulnerable":
+        return page(f"""
+        <h2>Private Storage Bucket</h2>
+        <p>Bucket: <code>{config.MINIO_BUCKET}</code></p>
+        <ul>{links}</ul>
+        <p class="ok">Da khac phuc: bucket duoc cau hinh private va web app khong public link tai truc tiep.</p>
+        <p>Truy cap truc tiep qua <code>localhost:9000/{config.MINIO_BUCKET}/...</code> se bi MinIO tu choi neu khong xac thuc.</p>
+        """)
     return page(f"""
     <h2>Public Storage Bucket</h2>
     <p>Bucket: <code>{config.MINIO_BUCKET}</code></p>
@@ -191,8 +202,16 @@ def config_risk():
     if secret_mode == "encrypted":
         body = """
         <h2>Credential Leakage Fix</h2>
-        <p class="ok">Secret dang duoc doc tu ban ma hoa va giai ma bang private key luc ung dung khoi dong.</p>
-        <p>Neu chi bi lo source/config ma khong co private key, attacker khong lay duoc credential dang ro.</p>
+        <p>SECRET_MODE: <code>encrypted</code></p>
+        <p class="ok">Da khac phuc: web app khong hien thi credential dang plaintext.</p>
+        <p>Secret duoc doc tu cac file ma hoa trong <code>/run/demo-secrets</code> va chi duoc giai ma khi ung dung khoi dong.</p>
+        <table>
+          <tr><th>Secret</th><th>Trang thai sau fix</th></tr>
+          <tr><td>DB_PASSWORD</td><td><code>DB_PASSWORD.enc</code> - encrypted at rest</td></tr>
+          <tr><td>MINIO_ACCESS_KEY</td><td><code>MINIO_ACCESS_KEY.enc</code> - encrypted at rest</td></tr>
+          <tr><td>MINIO_SECRET_KEY</td><td><code>MINIO_SECRET_KEY.enc</code> - encrypted at rest</td></tr>
+        </table>
+        <p class="ok">Ket qua: neu chi lo file Docker Compose hoac source code, attacker khong nhin thay password/access key dang ro.</p>
         """
     else:
         body = """

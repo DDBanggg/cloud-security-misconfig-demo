@@ -1,0 +1,26 @@
+\chapter{Các cơ chế bảo mật trên Cloud}
+
+\section{Bảo vệ dữ liệu bằng mật mã học}
+Dữ liệu cần được mã hóa khi lưu trữ và khi truyền tải. Mã hóa dữ liệu lưu trữ giúp giảm thiểu tác động nếu thiết bị lưu trữ hoặc bản sao dữ liệu bị truy cập trái phép. Mã hóa dữ liệu truyền tải, thường thông qua TLS, giúp bảo vệ dữ liệu khỏi nghe lén và chỉnh sửa trên đường truyền.
+
+\section{Quản lý khóa và chứng thư số}
+Mã hóa chỉ hiệu quả khi khóa được quản lý an toàn. KMS hỗ trợ tạo, lưu trữ, phân quyền và xoay vòng khóa. HSM cung cấp môi trường phần cứng an toàn hơn cho khóa quan trọng. PKI và Certificate Authority giúp xác thực danh tính dịch vụ và thiết lập kết nối tin cậy.
+
+\section{Quản lý định danh và kiểm soát truy cập}
+IAM là lớp bảo vệ trung tâm trong cloud. Các nguyên tắc quan trọng gồm:
+\begin{itemize}
+    \item bật MFA cho tài khoản quan trọng;
+    \item áp dụng least privilege;
+    \item phân quyền theo vai trò bằng RBAC;
+    \item tách tài khoản quản trị và tài khoản sử dụng thường ngày;
+    \item định kỳ rà soát quyền truy cập.
+\end{itemize}
+
+\section{Bảo mật mạng và ứng dụng}
+Bảo mật mạng cloud bao gồm phân vùng mạng, firewall, security group, private subnet và kiểm soát truy cập vào dịch vụ nội bộ. Với web application, WAF giúp phát hiện và chặn các mẫu tấn công phổ biến như SQL Injection, XSS, path traversal hoặc request bất thường.
+
+\section{Giám sát và ứng phó sự cố}
+Logging và audit trail giúp truy vết hành vi người dùng và dịch vụ. IDS/IPS, SIEM và hệ thống cảnh báo giúp phát hiện sự kiện bất thường. Quy trình incident response giúp tổ chức phản ứng có thứ tự khi xảy ra sự cố, bao gồm phát hiện, cô lập, xử lý, khôi phục và rút kinh nghiệm.
+
+\section{Các mô hình bảo mật hiện đại}
+Zero Trust đặt giả định rằng không có thành phần nào mặc nhiên đáng tin cậy. Mọi request đều cần được xác thực, phân quyền và đánh giá ngữ cảnh. Defense in Depth triển khai nhiều lớp bảo vệ để khi một lớp thất bại, các lớp khác vẫn giảm thiểu tác động. Security by Design yêu cầu bảo mật được đưa vào từ giai đoạn thiết kế, không chỉ bổ sung sau khi hệ thống đã hoàn thành.

@@ -1,0 +1,35 @@
+\chapter{Quản lý rủi ro và tuân thủ trong điện toán đám mây}
+
+\section{Quy trình quản lý rủi ro}
+Quản lý rủi ro bắt đầu bằng việc xác định tài sản cần bảo vệ, chẳng hạn dữ liệu khách hàng, tài khoản quản trị, khóa truy cập, database và log hệ thống. Sau đó, nhóm cần xác định mối đe dọa, đánh giá khả năng xảy ra và mức độ tác động, rồi lựa chọn biện pháp giảm thiểu phù hợp.
+
+\begin{table}[H]
+\centering
+\caption{Ví dụ ma trận đánh giá rủi ro}
+\begin{tabularx}{\textwidth}{|X|c|c|X|}
+\hline
+\textbf{Rủi ro} & \textbf{Khả năng} & \textbf{Tác động} & \textbf{Biện pháp giảm thiểu} \\
+\hline
+Bucket public làm lộ dữ liệu & Cao & Cao & Private bucket, signed URL, audit policy \\
+\hline
+User thường có quyền admin & Trung bình & Cao & RBAC, least privilege, review quyền \\
+\hline
+Secret nằm trong cấu hình rõ & Cao & Cao & Secret manager, mã hóa, tách khỏi source code \\
+\hline
+\end{tabularx}
+\end{table}
+
+\section{Các tiêu chuẩn và khung tham chiếu}
+Một số khung tham chiếu thường dùng trong bảo mật cloud gồm NIST Cybersecurity Framework, CSA Cloud Controls Matrix, ISO/IEC 27001, ISO/IEC 27017 và ISO/IEC 27018. Các tài liệu này giúp tổ chức xây dựng chính sách, kiểm soát rủi ro và chứng minh mức độ tuân thủ.
+
+\section{Bảo vệ dữ liệu cá nhân và yêu cầu pháp lý}
+Dữ liệu cá nhân cần được xử lý theo nguyên tắc tối thiểu hóa, có mục đích rõ ràng, được bảo vệ bằng biện pháp kỹ thuật phù hợp và có khả năng truy vết. Khi xảy ra rò rỉ dữ liệu, tổ chức có thể phải thông báo sự cố, khắc phục hậu quả và chịu trách nhiệm pháp lý.
+
+\section{Các chỉ số đánh giá hiệu quả bảo mật}
+Một số chỉ số có thể dùng để đánh giá hiệu quả bảo mật:
+\begin{itemize}
+    \item \textbf{MTTD:} thời gian trung bình để phát hiện sự cố.
+    \item \textbf{MTTR:} thời gian trung bình để phản ứng hoặc khôi phục.
+    \item \textbf{MFA Adoption Rate:} tỷ lệ tài khoản đã bật MFA.
+    \item \textbf{Encryption Coverage Rate:} tỷ lệ dữ liệu đã được mã hóa.
+\end{itemize}
