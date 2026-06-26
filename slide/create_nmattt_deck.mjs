@@ -106,18 +106,59 @@ function addArrow(slide, x1, y1, x2, y2) {
 }
 
 function architectureSlide(slide) {
-  addBox(slide, "User\nBrowser", 70, 220, 180, 92, { fill: light, bold: true });
-  addBox(slide, "Attacker\nPublic URL", 70, 410, 180, 92, { fill: "#FFF2F0", line: red, bold: true });
-  addBox(slide, "Flask Web App\n:5000", 430, 250, 230, 112, { fill: "#FFFFFF", bold: true });
-  addBox(slide, "PostgreSQL\nCustomer data", 900, 185, 240, 100, { fill: "#FFFFFF", bold: true });
-  addBox(slide, "MinIO Storage\n:9000 / :9001", 900, 420, 240, 110, { fill: "#FFF2F0", line: red, bold: true });
-  addBox(slide, "Encrypted Secret", 430, 470, 230, 80, { fill: "#F1FAF3", line: green, bold: true });
-  addArrow(slide, 250, 266, 430, 300);
-  addArrow(slide, 660, 286, 900, 235);
-  addArrow(slide, 660, 336, 900, 470);
-  addArrow(slide, 250, 456, 900, 475);
-  addArrow(slide, 545, 470, 545, 362);
-  addText(slide, "Docker network: cloud-lab", 430, 160, 340, 36, { size: 22, bold: true, color: gray });
+  addText(slide, "Mô hình cây phân tách rõ lớp truy cập, lớp ứng dụng và lớp dữ liệu/secret.", 78, 78, 960, 34, { size: 20, color: gray });
+
+  addBox(slide, "Cloud Security Demo Lab", 450, 110, 380, 62, {
+    fill: blue,
+    line: blue,
+    bold: true,
+    color: "#FFFFFF",
+    size: 24,
+  });
+
+  addArrow(slide, 640, 172, 220, 230);
+  addArrow(slide, 640, 172, 640, 230);
+  addArrow(slide, 640, 172, 1060, 230);
+
+  addBox(slide, "Access Layer", 80, 230, 280, 54, { fill: "#EEF4FA", line: blue, bold: true, color: blue, size: 21 });
+  addBox(slide, "Application Layer", 500, 230, 280, 54, { fill: "#EEF4FA", line: blue, bold: true, color: blue, size: 21 });
+  addBox(slide, "Data & Secret Layer", 920, 230, 280, 54, { fill: "#EEF4FA", line: blue, bold: true, color: blue, size: 21 });
+
+  addArrow(slide, 220, 284, 150, 345);
+  addArrow(slide, 220, 284, 290, 345);
+  addArrow(slide, 640, 284, 640, 345);
+  addArrow(slide, 1060, 284, 950, 345);
+  addArrow(slide, 1060, 284, 1060, 345);
+  addArrow(slide, 1060, 284, 1170, 345);
+
+  addBox(slide, "User\nBrowser", 72, 345, 155, 66, { fill: "#FFFFFF", line: "#B7C5D4", bold: true, size: 17 });
+  addBox(slide, "Attacker\nPublic URL", 245, 345, 155, 66, { fill: "#FFF2F0", line: red, bold: true, color: red, size: 17 });
+  addBox(slide, "Flask Web App\nlocalhost:5000", 510, 345, 260, 66, { fill: "#FFFFFF", line: "#B7C5D4", bold: true, size: 17 });
+  addBox(slide, "PostgreSQL\nCustomer data", 850, 345, 150, 66, { fill: "#FFFFFF", line: "#B7C5D4", bold: true, size: 16 });
+  addBox(slide, "MinIO\nObject storage", 1010, 345, 150, 66, { fill: "#FFF2F0", line: red, bold: true, color: red, size: 16 });
+  addBox(slide, "Secrets\nFernet", 1170, 345, 90, 66, { fill: "#F1FAF3", line: green, bold: true, color: green, size: 15 });
+
+  addArrow(slide, 150, 411, 150, 478);
+  addArrow(slide, 290, 411, 290, 478);
+  addArrow(slide, 640, 411, 640, 478);
+  addArrow(slide, 950, 411, 950, 478);
+  addArrow(slide, 1085, 411, 1085, 478);
+  addArrow(slide, 1215, 411, 1215, 478);
+
+  addBox(slide, "Normal\nrequest", 72, 478, 155, 58, { fill: light, line: "#C8D3E0", size: 16, color: dark });
+  addBox(slide, "Risk\npublic object", 245, 478, 155, 58, { fill: "#FFF2F0", line: red, size: 16, color: red, bold: true });
+  addBox(slide, "Mode\nvulnerable / fixed", 510, 478, 260, 58, { fill: light, line: "#C8D3E0", size: 16, color: dark, bold: true });
+  addBox(slide, "Asset\nPII sample", 850, 478, 150, 58, { fill: light, line: "#C8D3E0", size: 15, color: dark });
+  addBox(slide, "Risk\nbucket policy", 1010, 478, 150, 58, { fill: "#FFF2F0", line: red, size: 15, color: red, bold: true });
+  addBox(slide, "Control\nencrypted", 1170, 478, 90, 58, { fill: "#F1FAF3", line: green, size: 14, color: green, bold: true });
+
+  addBox(slide, "Ba điểm demo chính: Public Bucket | IAM Misconfiguration | Credential Leakage", 170, 612, 940, 54, {
+    fill: "#FFFFFF",
+    line: "#C8D3E0",
+    bold: true,
+    color: dark,
+    size: 20,
+  });
 }
 
 function comparisonTable(slide) {
@@ -159,19 +200,35 @@ async function main() {
   let s = deck.slides.add();
   s.background.fill = "#FFFFFF";
   s.shapes.add({ geometry: "rect", position: { left: 0, top: 0, width: W, height: H }, fill: light, line: { style: "solid", fill: light, width: 0 } });
-  addText(s, "Điện toán đám mây và\nBảo mật điện toán đám mây", 70, 120, 760, 150, { size: 48, bold: true, color: dark });
-  addText(s, "Phân tích rủi ro, lỗ hổng và cơ chế bảo vệ dữ liệu", 74, 294, 780, 40, { size: 24, color: gray });
-  addText(s, "Nhập môn An toàn thông tin\nNhóm: Đào Trường Anh, Nguyễn Đồng Minh Anh, Đoàn Đình Bằng", 74, 540, 780, 78, { size: 19, color: dark });
-  addBox(s, "Cloud Security Demo\nFlask + PostgreSQL + MinIO", 880, 170, 300, 260, { fill: "#FFFFFF", line: blue, bold: true, size: 26, color: blue });
+  s.shapes.add({ geometry: "rect", position: { left: 0, top: 0, width: 18, height: H }, fill: blue, line: { style: "solid", fill: blue, width: 0 } });
+  addText(s, "BÁO CÁO & DEMO PROJECT", 70, 70, 520, 32, { size: 19, bold: true, color: blue });
+  addText(s, "Điện toán đám mây và\nBảo mật điện toán đám mây", 70, 118, 760, 150, { size: 50, bold: true, color: dark });
+  addText(s, "Phân tích rủi ro, lỗ hổng và cơ chế bảo vệ dữ liệu trong môi trường cloud", 74, 300, 835, 42, { size: 24, color: gray });
+  addText(s, "Môn học: Nhập môn An toàn thông tin\nNhóm: Đào Trường Anh - Nguyễn Đồng Minh Anh - Đoàn Đình Bằng", 74, 555, 820, 74, { size: 19, color: dark });
+  addBox(s, "Sản phẩm thực hiện\n\nBáo cáo LaTeX\nSlide thuyết trình\nCloud Security Demo", 895, 132, 290, 275, { fill: "#FFFFFF", line: blue, bold: true, size: 23, color: blue });
+  addBox(s, "Tech stack: Flask + PostgreSQL + MinIO + Docker Compose", 895, 435, 290, 92, { fill: "#FFFFFF", line: "#C8D3E0", bold: true, size: 19, color: dark });
 
-  s = deck.slides.add(); addHeader(s, "Mục tiêu và bố cục", 2);
+  s = deck.slides.add(); addHeader(s, "Mục tiêu, phạm vi và sản phẩm", 2);
+  addText(s, "Đề tài không chỉ tổng hợp lý thuyết, mà có môi trường demo để quan sát lỗi cấu hình và cách khắc phục.", 72, 85, 1020, 42, { size: 22, color: gray });
+  addBox(s, "1\nNền tảng cloud", 78, 158, 300, 92, { fill: "#EEF4FA", line: blue, bold: true, color: blue, size: 24 });
   addBullets(s, [
-    "Tổng quan điện toán đám mây và mô hình chia sẻ trách nhiệm",
-    "Phân tích rủi ro: public bucket, IAM sai, credential leakage",
-    "Xây dựng lab demo bằng Docker Compose",
-    "So sánh trạng thái vulnerable và fixed",
-  ], 80, 135, 760, 260, { size: 26 });
-  addBox(s, "Luồng trình bày\n1. Lý thuyết\n2. Rủi ro\n3. Demo\n4. Khắc phục", 875, 145, 280, 280, { fill: light, line: blue, bold: true, color: blue, size: 24 });
+    "IaaS, PaaS, SaaS",
+    "Public, Private, Hybrid",
+    "Shared Responsibility Model",
+  ], 92, 275, 280, 120, { size: 20 });
+  addBox(s, "2\nRủi ro bảo mật", 490, 158, 300, 92, { fill: "#FFF2F0", line: red, bold: true, color: red, size: 24 });
+  addBullets(s, [
+    "Public Storage Bucket",
+    "IAM Misconfiguration",
+    "Credential Leakage",
+  ], 505, 275, 280, 120, { size: 20 });
+  addBox(s, "3\nDemo & đánh giá", 902, 158, 300, 92, { fill: "#F1FAF3", line: green, bold: true, color: green, size: 24 });
+  addBullets(s, [
+    "Docker Compose lab",
+    "Ảnh before/after",
+    "Bảng so sánh kết quả",
+  ], 917, 275, 280, 120, { size: 20 });
+  addBox(s, "Output cuối cùng: báo cáo LaTeX, slide PowerPoint, ảnh minh chứng và flow live demo cho buổi thuyết trình.", 164, 505, 950, 78, { fill: "#FFFFFF", line: "#C8D3E0", bold: true, color: dark, size: 22 });
 
   s = deck.slides.add(); addHeader(s, "Kiến trúc hệ thống demo", 3);
   architectureSlide(s);

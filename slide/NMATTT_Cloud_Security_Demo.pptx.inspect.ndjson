@@ -1,150 +1,180 @@
-{"kind":"deck","id":"pr/um0bh5","name":"Deck"}
-{"kind":"layout","layoutId":"097bd0f2-067b-434c-b209-06ac3ad660f6","name":"Master","type":"master"}
-{"kind":"layout","layoutId":"ab195c25-470c-4ece-9275-b2ac404119c7","name":"Title Slide","type":"title"}
-{"kind":"slide","id":"sl/6ej8g5","slide":1,"title":"Điện toán đám mây và","textShapes":4}
-{"kind":"shape","id":"sh/7qpg3ex0","slide":1,"bbox":[0,0,1280,720]}
-{"kind":"textbox","id":"sh/0bi9s36h","slide":1,"text":"Điện toán đám mây và\nBảo mật điện toán đám mây","textPreview":"Điện toán đám mây và | Bảo mật điện toán đám mây","textChars":46,"textLines":2,"bbox":[70,120,760,150]}
-{"kind":"textbox","id":"sh/pwb2hwfy","slide":1,"text":"Phân tích rủi ro, lỗ hổng và cơ chế bảo vệ dữ liệu","textPreview":"Phân tích rủi ro, lỗ hổng và cơ chế bảo vệ dữ liệu","textChars":50,"textLines":1,"bbox":[74,294,780,40]}
-{"kind":"textbox","id":"sh/ed8v6psf","slide":1,"text":"Nhập môn An toàn thông tin\nNhóm: Đào Trường Anh, Nguyễn Đồng Minh Anh, Đoàn Đình Bằng","textPreview":"Nhập môn An toàn thông tin | Nhóm: Đào Trường Anh, Nguyễn Đồng Minh Anh, Đoàn Đình Bằng","textChars":85,"textLines":2,"bbox":[74,540,780,78]}
-{"kind":"textbox","id":"sh/7y1kre1w","slide":1,"text":"Cloud Security Demo\nFlask + PostgreSQL + MinIO","textPreview":"Cloud Security Demo | Flask + PostgreSQL + MinIO","textChars":46,"textLines":2,"bbox":[880,170,300,260]}
-{"kind":"notes","id":"nt/6ej8g5","slide":1,"text":""}
-{"kind":"slide","id":"sl/02sorz","slide":2,"title":"Mục tiêu và bố cục","textShapes":4}
-{"kind":"shape","id":"sh/u9knih4b","slide":2,"bbox":[0,0,1280,52]}
-{"kind":"textbox","id":"sh/1032lszq","slide":2,"text":"Mục tiêu và bố cục","textPreview":"Mục tiêu và bố cục","textChars":18,"textLines":1,"bbox":[56,10,980,38]}
-{"kind":"textbox","id":"sh/cfa9w3m9","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
-{"kind":"textbox","id":"sh/jm1cfa9w","slide":2,"text":"• Tổng quan điện toán đám mây và mô hình chia sẻ trách nhiệm\n• Phân tích rủi ro: public bucket, IAM sai, credential leakage\n• Xây dựng lab demo bằng Docker Compose\n• So sánh trạng thái vulnerable và fixed","textPreview":"• Tổng quan điện toán đám mây và mô hình chia sẻ trách nhiệm | • Phân tích rủi ro: public bucket, IAM sai, credential leakage | • Xây dựn...","textChars":204,"textLines":4,"bbox":[80,135,760,260]}
-{"kind":"textbox","id":"sh/u18jqh0f","slide":2,"text":"Luồng trình bày\n1. Lý thuyết\n2. Rủi ro\n3. Demo\n4. Khắc phục","textPreview":"Luồng trình bày | 1. Lý thuyết | 2. Rủi ro | 3. Demo | 4. Khắc phục","textChars":59,"textLines":5,"bbox":[875,145,280,280]}
-{"kind":"notes","id":"nt/02sorz","slide":2,"text":""}
-{"kind":"slide","id":"sl/az9gxn","slide":3,"title":"Kiến trúc hệ thống demo","textShapes":9}
-{"kind":"shape","id":"sh/tgfmlkjm","slide":3,"bbox":[0,0,1280,52]}
-{"kind":"textbox","id":"sh/mp0bi9s3","slide":3,"text":"Kiến trúc hệ thống demo","textPreview":"Kiến trúc hệ thống demo","textChars":23,"textLines":1,"bbox":[56,10,980,38]}
-{"kind":"textbox","id":"sh/bat47y1k","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
-{"kind":"textbox","id":"sh/47y1kre1","slide":3,"text":"User\nBrowser","textPreview":"User | Browser","textChars":12,"textLines":2,"bbox":[70,220,180,92]}
-{"kind":"textbox","id":"sh/tsvu9kni","slide":3,"text":"Attacker\nPublic URL","textPreview":"Attacker | Public URL","textChars":19,"textLines":2,"bbox":[70,410,180,92]}
-{"kind":"textbox","id":"sh/m1cfa9w3","slide":3,"text":"Flask Web App\n:5000","textPreview":"Flask Web App | :5000","textChars":19,"textLines":2,"bbox":[430,250,230,112]}
-{"kind":"textbox","id":"sh/bm58z25k","slide":3,"text":"PostgreSQL\nCustomer data","textPreview":"PostgreSQL | Customer data","textChars":24,"textLines":2,"bbox":[900,185,240,100]}
-{"kind":"textbox","id":"sh/4byhgn29","slide":3,"text":"MinIO Storage\n:9000 / :9001","textPreview":"MinIO Storage | :9000 / :9001","textChars":27,"textLines":2,"bbox":[900,420,240,110]}
-{"kind":"textbox","id":"sh/twra5gbq","slide":3,"text":"Encrypted Secret","textPreview":"Encrypted Secret","textChars":16,"textLines":1,"bbox":[430,470,230,80]}
-{"kind":"shape","id":"sh/1cfa9w3m","slide":3,"bbox":[250,266,180,34]}
-{"kind":"shape","id":"sh/crmhk3q5","slide":3,"bbox":[660,286,240,-51]}
-{"kind":"shape","id":"sh/j6tovaho","slide":3,"bbox":[660,336,240,134]}
-{"kind":"shape","id":"sh/ulwval87","slide":3,"bbox":[250,456,650,19]}
-{"kind":"shape","id":"sh/1kre1w7m","slide":3,"bbox":[545,470,0,-108]}
-{"kind":"textbox","id":"sh/c3ylc7u5","slide":3,"text":"Docker network: cloud-lab","textPreview":"Docker network: cloud-lab","textChars":25,"textLines":1,"bbox":[430,160,340,36]}
-{"kind":"notes","id":"nt/az9gxn","slide":3,"text":""}
-{"kind":"slide","id":"sl/hzqu9o","slide":4,"title":"Môi trường thực nghiệm","textShapes":4}
-{"kind":"shape","id":"sh/2p8nqxs7","slide":4,"bbox":[0,0,1280,52]}
-{"kind":"textbox","id":"sh/9gr2p8nq","slide":4,"text":"Môi trường thực nghiệm","textPreview":"Môi trường thực nghiệm","textChars":22,"textLines":1,"bbox":[56,10,980,38]}
-{"kind":"textbox","id":"sh/gvy90je9","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
-{"kind":"textbox","id":"sh/r2p8nqxs","slide":4,"text":"Docker Compose khởi chạy 4 service: web, postgres, minio và minio-init.","textPreview":"Docker Compose khởi chạy 4 service: web, postgres, minio và minio-init.","textChars":71,"textLines":1,"bbox":[70,85,900,38]}
-{"kind":"textbox","id":"sh/94fu18jq","slide":4,"text":"Bằng chứng môi trường\nđã chạy thành công","textPreview":"Bằng chứng môi trường | đã chạy thành công","textChars":40,"textLines":2,"bbox":[935,575,220,78]}
-{"kind":"image","id":"im/z25kb6xk","slide":4,"name":"","alt":"02-docker-compose-ps.png","bbox":[70,135,1030,430]}
-{"kind":"notes","id":"nt/hzqu9o","slide":4,"text":""}
-{"kind":"slide","id":"sl/g3z15l","slide":5,"title":"Tài sản cần bảo vệ","textShapes":4}
-{"kind":"shape","id":"sh/wb2hwfyx","slide":5,"bbox":[0,0,1280,52]}
-{"kind":"textbox","id":"sh/3q5o7qpg","slide":5,"text":"Tài sản cần bảo vệ","textPreview":"Tài sản cần bảo vệ","textChars":18,"textLines":1,"bbox":[56,10,980,38]}
-{"kind":"textbox","id":"sh/e9cvixcz","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
-{"kind":"textbox","id":"sh/3itgfmlk","slide":5,"text":"PostgreSQL\nDữ liệu khách hàng","textPreview":"PostgreSQL | Dữ liệu khách hàng","textChars":29,"textLines":2,"bbox":[120,490,400,80]}
-{"kind":"textbox","id":"sh/ex0nuxc3","slide":5,"text":"MinIO\nObject storage","textPreview":"MinIO | Object storage","textChars":20,"textLines":2,"bbox":[720,490,400,80]}
-{"kind":"image","id":"im/0bi9s36h","slide":5,"name":"","alt":"05-customers-postgresql.png","bbox":[70,120,540,330]}
-{"kind":"image","id":"im/pwb2hwfy","slide":5,"name":"","alt":"10-minio-console-public-bucket.png","bbox":[670,120,540,330]}
-{"kind":"notes","id":"nt/g3z15l","slide":5,"text":""}
-{"kind":"slide","id":"sl/iuvlbl","slide":6,"title":"Phân tích rủi ro theo STRIDE","textShapes":20}
-{"kind":"shape","id":"sh/sneloj2t","slide":6,"bbox":[0,0,1280,52]}
-{"kind":"textbox","id":"sh/32lszqtc","slide":6,"text":"Phân tích rủi ro theo STRIDE","textPreview":"Phân tích rủi ro theo STRIDE","textChars":28,"textLines":1,"bbox":[56,10,980,38]}
-{"kind":"textbox","id":"sh/ahoza1gv","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
-{"kind":"textbox","id":"sh/lkjm1cfa","slide":6,"text":"S","textPreview":"S","textChars":1,"textLines":1,"bbox":[80,112,60,54]}
-{"kind":"textbox","id":"sh/szqtcj6t","slide":6,"text":"Spoofing","textPreview":"Spoofing","textChars":8,"textLines":1,"bbox":[160,116,210,36]}
-{"kind":"textbox","id":"sh/3ex0nuxc","slide":6,"text":"Chiếm tài khoản hoặc dùng credential lộ","textPreview":"Chiếm tài khoản hoặc dùng credential lộ","textChars":39,"textLines":1,"bbox":[390,116,720,40]}
-{"kind":"textbox","id":"sh/at47y1kr","slide":6,"text":"T","textPreview":"T","textChars":1,"textLines":1,"bbox":[80,190,60,54]}
-{"kind":"textbox","id":"sh/loj2t83i","slide":6,"text":"Tampering","textPreview":"Tampering","textChars":9,"textLines":1,"bbox":[160,194,210,36]}
-{"kind":"textbox","id":"sh/w3m94fu1","slide":6,"text":"Sửa dữ liệu trong bucket/database","textPreview":"Sửa dữ liệu trong bucket/database","textChars":33,"textLines":1,"bbox":[390,194,720,40]}
-{"kind":"textbox","id":"sh/udg7adsj","slide":6,"text":"R","textPreview":"R","textChars":1,"textLines":1,"bbox":[80,268,60,54]}
-{"kind":"textbox","id":"sh/nyd0z610","slide":6,"text":"Repudiation","textPreview":"Repudiation","textChars":11,"textLines":1,"bbox":[160,272,210,36]}
-{"kind":"textbox","id":"sh/cj6tovah","slide":6,"text":"Thiếu audit log để truy vết","textPreview":"Thiếu audit log để truy vết","textChars":27,"textLines":1,"bbox":[390,272,720,40]}
-{"kind":"textbox","id":"sh/54zidony","slide":6,"text":"I","textPreview":"I","textChars":1,"textLines":1,"bbox":[80,346,60,54]}
-{"kind":"textbox","id":"sh/upwb2hwf","slide":6,"text":"Info Disclosure","textPreview":"Info Disclosure","textChars":15,"textLines":1,"bbox":[160,350,210,36]}
-{"kind":"textbox","id":"sh/nap4r65w","slide":6,"text":"Bucket public, secret plaintext","textPreview":"Bucket public, secret plaintext","textChars":31,"textLines":1,"bbox":[390,350,720,40]}
-{"kind":"textbox","id":"sh/cvixczed","slide":6,"text":"D","textPreview":"D","textChars":1,"textLines":1,"bbox":[80,424,60,54]}
-{"kind":"textbox","id":"sh/5gbq1ory","slide":6,"text":"DoS","textPreview":"DoS","textChars":3,"textLines":1,"bbox":[160,428,210,36]}
-{"kind":"textbox","id":"sh/u18jqh0f","slide":6,"text":"Request bất thường gây quá tải","textPreview":"Request bất thường gây quá tải","textChars":30,"textLines":1,"bbox":[390,428,720,40]}
-{"kind":"textbox","id":"sh/jm1cfa9w","slide":6,"text":"E","textPreview":"E","textChars":1,"textLines":1,"bbox":[80,502,60,54]}
-{"kind":"textbox","id":"sh/bm58z25k","slide":6,"text":"Privilege","textPreview":"Privilege","textChars":9,"textLines":1,"bbox":[160,506,210,36]}
-{"kind":"textbox","id":"sh/m1cfa9w3","slide":6,"text":"User thường có quyền admin","textPreview":"User thường có quyền admin","textChars":26,"textLines":1,"bbox":[390,506,720,40]}
-{"kind":"notes","id":"nt/iuvlbl","slide":6,"text":""}
-{"kind":"slide","id":"sl/wircoy","slide":7,"title":"Lỗi 1: Public Storage Bucket","textShapes":3}
-{"kind":"shape","id":"sh/fyxobm58","slide":7,"bbox":[0,0,1280,52]}
-{"kind":"textbox","id":"sh/8jqh0fep","slide":7,"text":"Lỗi 1: Public Storage Bucket","textPreview":"Lỗi 1: Public Storage Bucket","textChars":28,"textLines":1,"bbox":[56,10,980,38]}
-{"kind":"textbox","id":"sh/x4nap4r6","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
-{"kind":"textbox","id":"sh/8v6psfil","slide":7,"text":"Object customers.csv có thể mở trực tiếp qua URL\nkhông cần xác thực","textPreview":"Object customers.csv có thể mở trực tiếp qua URL | không cần xác thực","textChars":67,"textLines":2,"bbox":[220,500,800,76]}
-{"kind":"image","id":"im/nyd0z610","slide":7,"name":"","alt":"06-storage-public-bucket.png","bbox":[70,115,530,350]}
-{"kind":"image","id":"im/udg7adsj","slide":7,"name":"","alt":"07-public-object-customers-csv.png","bbox":[650,115,530,350]}
-{"kind":"notes","id":"nt/wircoy","slide":7,"text":""}
-{"kind":"slide","id":"sl/aqrdz9","slide":8,"title":"Lỗi 2: IAM Misconfiguration","textShapes":3}
-{"kind":"shape","id":"sh/lszqtcj6","slide":8,"bbox":[0,0,1280,52]}
-{"kind":"textbox","id":"sh/a5gbq1or","slide":8,"text":"Lỗi 2: IAM Misconfiguration","textPreview":"Lỗi 2: IAM Misconfiguration","textChars":27,"textLines":1,"bbox":[56,10,980,38]}
-{"kind":"textbox","id":"sh/3m94fu18","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
-{"kind":"textbox","id":"sh/h4byhgn2","slide":8,"text":"• alice là tài khoản người dùng thường\n• Trong chế độ vulnerable vẫn truy cập được /admin\n• Nguyên nhân: kiểm tra quyền chưa đúng ở server side","textPreview":"• alice là tài khoản người dùng thường | • Trong chế độ vulnerable vẫn truy cập được /admin | • Nguyên nhân: kiểm tra quyền chưa đúng ở s...","textChars":143,"textLines":3,"bbox":[890,150,310,260]}
-{"kind":"image","id":"im/9s36hcrm","slide":8,"name":"","alt":"08-admin-vulnerable-alice.png","bbox":[90,120,760,390]}
-{"kind":"notes","id":"nt/aqrdz9","slide":8,"text":""}
-{"kind":"slide","id":"sl/t6rpbd","slide":9,"title":"Lỗi 3: Credential Leakage","textShapes":3}
-{"kind":"shape","id":"sh/0fepkzup","slide":9,"bbox":[0,0,1280,52]}
-{"kind":"textbox","id":"sh/bulwval8","slide":9,"text":"Lỗi 3: Credential Leakage","textPreview":"Lỗi 3: Credential Leakage","textChars":25,"textLines":1,"bbox":[56,10,980,38]}
-{"kind":"textbox","id":"sh/i9s36hcr","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
-{"kind":"textbox","id":"sh/bi9s36hc","slide":9,"text":"DB password, access key và secret key xuất hiện ở dạng rõ","textPreview":"DB password, access key và secret key xuất hiện ở dạng rõ","textChars":57,"textLines":1,"bbox":[160,520,900,64]}
-{"kind":"image","id":"im/o7qpg3ex","slide":9,"name":"","alt":"09-config-risk-plaintext.png","bbox":[80,115,610,365]}
-{"kind":"image","id":"im/dsji5sne","slide":9,"name":"","alt":"11-1-before.png","bbox":[735,115,405,365]}
-{"kind":"notes","id":"nt/t6rpbd","slide":9,"text":""}
-{"kind":"slide","id":"sl/a3x552","slide":10,"title":"Chuyển sang trạng thái fixed","textShapes":4}
-{"kind":"shape","id":"sh/ed8v6psf","slide":10,"bbox":[0,0,1280,52]}
-{"kind":"textbox","id":"sh/p4r65wju","slide":10,"text":"Chuyển sang trạng thái fixed","textPreview":"Chuyển sang trạng thái fixed","textChars":28,"textLines":1,"bbox":[56,10,980,38]}
-{"kind":"textbox","id":"sh/wjudg7ad","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
-{"kind":"textbox","id":"sh/pwb2hwfy","slide":10,"text":"Before\nAPP_MODE=vulnerable\nSECRET_MODE=plaintext","textPreview":"Before | APP_MODE=vulnerable | SECRET_MODE=plaintext","textChars":48,"textLines":3,"bbox":[125,505,390,92]}
-{"kind":"textbox","id":"sh/0bi9s36h","slide":10,"text":"After\nAPP_MODE=fixed\nSECRET_MODE=encrypted","textPreview":"After | APP_MODE=fixed | SECRET_MODE=encrypted","textChars":42,"textLines":3,"bbox":[765,505,390,92]}
-{"kind":"image","id":"im/ih4byhgn","slide":10,"name":"","alt":"11-1-before.png","bbox":[95,120,455,360]}
-{"kind":"image","id":"im/72x4nap4","slide":10,"name":"","alt":"11-2-after.png","bbox":[730,120,455,360]}
-{"kind":"notes","id":"nt/a3x552","slide":10,"text":""}
-{"kind":"slide","id":"sl/akhyi6","slide":11,"title":"Kết quả sau khắc phục","textShapes":4}
-{"kind":"shape","id":"sh/qxs72x4n","slide":11,"bbox":[0,0,1280,52]}
-{"kind":"textbox","id":"sh/xobm58z2","slide":11,"text":"Kết quả sau khắc phục","textPreview":"Kết quả sau khắc phục","textChars":21,"textLines":1,"bbox":[56,10,980,38]}
-{"kind":"textbox","id":"sh/83itgfml","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
-{"kind":"textbox","id":"sh/x0nuxc3y","slide":11,"text":"alice bị chặn khỏi /admin","textPreview":"alice bị chặn khỏi /admin","textChars":25,"textLines":1,"bbox":[120,490,400,75]}
-{"kind":"textbox","id":"sh/4fu18jqh","slide":11,"text":"object private, truy cập trực tiếp bị từ chối","textPreview":"object private, truy cập trực tiếp bị từ chối","textChars":45,"textLines":1,"bbox":[720,490,420,75]}
-{"kind":"image","id":"im/e9cvixcz","slide":11,"name":"","alt":"11-admin-fixed-alice-denied.png","bbox":[70,120,540,330]}
-{"kind":"image","id":"im/3q5o7qpg","slide":11,"name":"","alt":"13-public-object-denied-fixed.png","bbox":[670,120,540,330]}
-{"kind":"notes","id":"nt/akhyi6","slide":11,"text":""}
-{"kind":"slide","id":"sl/gx8eil","slide":12,"title":"Secret được mã hóa","textShapes":3}
-{"kind":"shape","id":"sh/t47y1kre","slide":12,"bbox":[0,0,1280,52]}
-{"kind":"textbox","id":"sh/idonyd0z","slide":12,"text":"Secret được mã hóa","textPreview":"Secret được mã hóa","textChars":18,"textLines":1,"bbox":[56,10,980,38]}
-{"kind":"textbox","id":"sh/byhgn29g","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
-{"kind":"textbox","id":"sh/tcj6tova","slide":12,"text":"• Secret được tách khỏi cấu hình trực tiếp\n• Ứng dụng chỉ giải mã khi chạy\n• Giảm tác động nếu source/config bị lộ","textPreview":"• Secret được tách khỏi cấu hình trực tiếp | • Ứng dụng chỉ giải mã khi chạy | • Giảm tác động nếu source/config bị lộ","textChars":114,"textLines":3,"bbox":[910,155,285,260]}
-{"kind":"image","id":"im/hgn29gr2","slide":12,"name":"","alt":"14-config-risk-encrypted.png","bbox":[100,120,760,390]}
-{"kind":"notes","id":"nt/gx8eil","slide":12,"text":""}
-{"kind":"slide","id":"sl/gfrf50","slide":13,"title":"So sánh trước và sau","textShapes":17}
-{"kind":"shape","id":"sh/ap4r65wj","slide":13,"bbox":[0,0,1280,52]}
-{"kind":"textbox","id":"sh/hgn29gr2","slide":13,"text":"So sánh trước và sau","textPreview":"So sánh trước và sau","textChars":20,"textLines":1,"bbox":[56,10,980,38]}
-{"kind":"textbox","id":"sh/svu9knih","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
-{"kind":"textbox","id":"sh/zidonyd0","slide":13,"text":"Hạng mục","textPreview":"Hạng mục","textChars":8,"textLines":1,"bbox":[72,145,230,52]}
-{"kind":"textbox","id":"sh/a1gvy90j","slide":13,"text":"Trước khi khắc phục","textPreview":"Trước khi khắc phục","textChars":19,"textLines":1,"bbox":[302,145,430,52]}
-{"kind":"textbox","id":"sh/hoza1gvy","slide":13,"text":"Sau khi khắc phục","textPreview":"Sau khi khắc phục","textChars":17,"textLines":1,"bbox":[732,145,430,52]}
-{"kind":"textbox","id":"sh/s36hcrmh","slide":13,"text":"Public Bucket","textPreview":"Public Bucket","textChars":13,"textLines":1,"bbox":[72,197,230,74]}
-{"kind":"textbox","id":"sh/3m94fu18","slide":13,"text":"Object trong MinIO mở trực tiếp không cần xác thực","textPreview":"Object trong MinIO mở trực tiếp không cần xác thực","textChars":50,"textLines":1,"bbox":[302,197,430,74]}
-{"kind":"textbox","id":"sh/a5gbq1or","slide":13,"text":"Bucket private, truy cập trực tiếp bị từ chối","textPreview":"Bucket private, truy cập trực tiếp bị từ chối","textChars":45,"textLines":1,"bbox":[732,197,430,74]}
-{"kind":"textbox","id":"sh/kf6dcbul","slide":13,"text":"IAM","textPreview":"IAM","textChars":3,"textLines":1,"bbox":[72,271,230,74]}
-{"kind":"textbox","id":"sh/d0z61032","slide":13,"text":"User thường alice truy cập được /admin","textPreview":"User thường alice truy cập được /admin","textChars":38,"textLines":1,"bbox":[302,271,430,74]}
-{"kind":"textbox","id":"sh/29gr2p8n","slide":13,"text":"alice bị chặn khỏi trang quản trị","textPreview":"alice bị chặn khỏi trang quản trị","textChars":33,"textLines":1,"bbox":[732,271,430,74]}
-{"kind":"textbox","id":"sh/vu9knih4","slide":13,"text":"Credential","textPreview":"Credential","textChars":10,"textLines":1,"bbox":[72,345,230,74]}
-{"kind":"textbox","id":"sh/knih4byh","slide":13,"text":"DB password và MinIO key ở dạng rõ","textPreview":"DB password và MinIO key ở dạng rõ","textChars":34,"textLines":1,"bbox":[302,345,430,74]}
-{"kind":"textbox","id":"sh/d8bat47y","slide":13,"text":"Secret được tách riêng và mã hóa","textPreview":"Secret được tách riêng và mã hóa","textChars":32,"textLines":1,"bbox":[732,345,430,74]}
-{"kind":"textbox","id":"sh/2lszqtcj","slide":13,"text":"Rủi ro","textPreview":"Rủi ro","textChars":6,"textLines":1,"bbox":[72,419,230,74]}
-{"kind":"textbox","id":"sh/v6psfil0","slide":13,"text":"Có nguy cơ rò rỉ dữ liệu khách hàng và secret","textPreview":"Có nguy cơ rò rỉ dữ liệu khách hàng và secret","textChars":45,"textLines":1,"bbox":[302,419,430,74]}
-{"kind":"textbox","id":"sh/kre1w7mp","slide":13,"text":"Giảm rủi ro bằng least privilege và encrypted secret","textPreview":"Giảm rủi ro bằng least privilege và encrypted secret","textChars":52,"textLines":1,"bbox":[732,419,430,74]}
-{"kind":"notes","id":"nt/gfrf50","slide":13,"text":""}
-{"kind":"slide","id":"sl/8pajzg","slide":14,"title":"Kết luận và demo trực tiếp","textShapes":5}
-{"kind":"shape","id":"sh/m1cfa9w3","slide":14,"bbox":[0,0,1280,52]}
-{"kind":"textbox","id":"sh/tsvu9kni","slide":14,"text":"Kết luận và demo trực tiếp","textPreview":"Kết luận và demo trực tiếp","textChars":26,"textLines":1,"bbox":[56,10,980,38]}
-{"kind":"textbox","id":"sh/47y1kre1","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
-{"kind":"textbox","id":"sh/bat47y1k","slide":14,"text":"• Cloud security phụ thuộc mạnh vào cấu hình và phân quyền\n• Ba lỗi demo đều phổ biến: public bucket, quyền quá mức, secret plaintext\n• Biện pháp chính: private-by-default, least privilege, encrypted secret, audit log","textPreview":"• Cloud security phụ thuộc mạnh vào cấu hình và phân quyền | • Ba lỗi demo đều phổ biến: public bucket, quyền quá mức, secret plaintext |...","textChars":217,"textLines":3,"bbox":[80,120,690,250]}
-{"kind":"textbox","id":"sh/mp0bi9s3","slide":14,"text":"Live demo đề xuất\n1. /storage public object\n2. alice truy cập /admin\n3. chuyển sang fixed\n4. object/admin bị chặn","textPreview":"Live demo đề xuất | 1. /storage public object | 2. alice truy cập /admin | 3. chuyển sang fixed | 4. object/admin bị chặn","textChars":113,"textLines":5,"bbox":[830,130,310,300]}
-{"kind":"textbox","id":"sh/tgfmlkjm","slide":14,"text":"Thông điệp chính: cấu hình nhỏ có thể tạo rủi ro lớn, nhưng kiểm soát đúng giúp giảm đáng kể bề mặt tấn công.","textPreview":"Thông điệp chính: cấu hình nhỏ có thể tạo rủi ro lớn, nhưng kiểm soát đúng giúp giảm đáng kể bề mặt tấn công.","textChars":109,"textLines":1,"bbox":[95,535,1030,54]}
-{"kind":"notes","id":"nt/8pajzg","slide":14,"text":""}
+{"kind":"deck","id":"pr/ga2sy7","name":"Deck"}
+{"kind":"layout","layoutId":"55fe3e53-87e2-42a2-a54c-d9f62e9f11cf","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"a3d19759-05c6-43b0-bc42-ab6591947ccd","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/qfmqii","slide":1,"title":"BÁO CÁO & DEMO PROJECT","textShapes":6}
+{"kind":"shape","id":"sh/vu9knih4","slide":1,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/kf6dcbul","slide":1,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/d0z61032","slide":1,"text":"BÁO CÁO & DEMO PROJECT","textPreview":"BÁO CÁO & DEMO PROJECT","textChars":22,"textLines":1,"bbox":[70,70,520,32]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":1,"text":"Điện toán đám mây và\nBảo mật điện toán đám mây","textPreview":"Điện toán đám mây và | Bảo mật điện toán đám mây","textChars":46,"textLines":2,"bbox":[70,118,760,150]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":1,"text":"Phân tích rủi ro, lỗ hổng và cơ chế bảo vệ dữ liệu trong môi trường cloud","textPreview":"Phân tích rủi ro, lỗ hổng và cơ chế bảo vệ dữ liệu trong môi trường cloud","textChars":73,"textLines":1,"bbox":[74,300,835,42]}
+{"kind":"textbox","id":"sh/knih4byh","slide":1,"text":"Môn học: Nhập môn An toàn thông tin\nNhóm: Đào Trường Anh - Nguyễn Đồng Minh Anh - Đoàn Đình Bằng","textPreview":"Môn học: Nhập môn An toàn thông tin | Nhóm: Đào Trường Anh - Nguyễn Đồng Minh Anh - Đoàn Đình Bằng","textChars":96,"textLines":2,"bbox":[74,555,820,74]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":1,"text":"Sản phẩm thực hiện\n\nBáo cáo LaTeX\nSlide thuyết trình\nCloud Security Demo","textPreview":"Sản phẩm thực hiện |  | Báo cáo LaTeX | Slide thuyết trình | Cloud Security Demo","textChars":72,"textLines":5,"bbox":[895,132,290,275]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":1,"text":"Tech stack: Flask + PostgreSQL + MinIO + Docker Compose","textPreview":"Tech stack: Flask + PostgreSQL + MinIO + Docker Compose","textChars":55,"textLines":1,"bbox":[895,435,290,92]}
+{"kind":"notes","id":"nt/qfmqii","slide":1,"text":""}
+{"kind":"slide","id":"sl/c4nqan","slide":2,"title":"Mục tiêu, phạm vi và sản phẩm","textShapes":10}
+{"kind":"shape","id":"sh/1kre1w7m","slide":2,"bbox":[0,0,1280,52]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":2,"text":"Mục tiêu, phạm vi và sản phẩm","textPreview":"Mục tiêu, phạm vi và sản phẩm","textChars":29,"textLines":1,"bbox":[56,10,980,38]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":2,"text":"Đề tài không chỉ tổng hợp lý thuyết, mà có môi trường demo để quan sát lỗi cấu hình và cách khắc phục.","textPreview":"Đề tài không chỉ tổng hợp lý thuyết, mà có môi trường demo để quan sát lỗi cấu hình và cách khắc phục.","textChars":102,"textLines":1,"bbox":[72,85,1020,42]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":2,"text":"1\nNền tảng cloud","textPreview":"1 | Nền tảng cloud","textChars":16,"textLines":2,"bbox":[78,158,300,92]}
+{"kind":"textbox","id":"sh/ulwval87","slide":2,"text":"• IaaS, PaaS, SaaS\n• Public, Private, Hybrid\n• Shared Responsibility Model","textPreview":"• IaaS, PaaS, SaaS | • Public, Private, Hybrid | • Shared Responsibility Model","textChars":74,"textLines":3,"bbox":[92,275,280,120]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":2,"text":"2\nRủi ro bảo mật","textPreview":"2 | Rủi ro bảo mật","textChars":16,"textLines":2,"bbox":[490,158,300,92]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":2,"text":"• Public Storage Bucket\n• IAM Misconfiguration\n• Credential Leakage","textPreview":"• Public Storage Bucket | • IAM Misconfiguration | • Credential Leakage","textChars":67,"textLines":3,"bbox":[505,275,280,120]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":2,"text":"3\nDemo & đánh giá","textPreview":"3 | Demo & đánh giá","textChars":17,"textLines":2,"bbox":[902,158,300,92]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":2,"text":"• Docker Compose lab\n• Ảnh before/after\n• Bảng so sánh kết quả","textPreview":"• Docker Compose lab | • Ảnh before/after | • Bảng so sánh kết quả","textChars":62,"textLines":3,"bbox":[917,275,280,120]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":2,"text":"Output cuối cùng: báo cáo LaTeX, slide PowerPoint, ảnh minh chứng và flow live demo cho buổi thuyết trình.","textPreview":"Output cuối cùng: báo cáo LaTeX, slide PowerPoint, ảnh minh chứng và flow live demo cho buổi thuyết trình.","textChars":106,"textLines":1,"bbox":[164,505,950,78]}
+{"kind":"notes","id":"nt/c4nqan","slide":2,"text":""}
+{"kind":"slide","id":"sl/0h6fhb","slide":3,"title":"Kiến trúc hệ thống demo","textShapes":20}
+{"kind":"shape","id":"sh/knih4byh","slide":3,"bbox":[0,0,1280,52]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":3,"text":"Kiến trúc hệ thống demo","textPreview":"Kiến trúc hệ thống demo","textChars":23,"textLines":1,"bbox":[56,10,980,38]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
+{"kind":"textbox","id":"sh/d0z61032","slide":3,"text":"Mô hình cây phân tách rõ lớp truy cập, lớp ứng dụng và lớp dữ liệu/secret.","textPreview":"Mô hình cây phân tách rõ lớp truy cập, lớp ứng dụng và lớp dữ liệu/secret.","textChars":74,"textLines":1,"bbox":[78,78,960,34]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":3,"text":"Cloud Security Demo Lab","textPreview":"Cloud Security Demo Lab","textChars":23,"textLines":1,"bbox":[450,110,380,62]}
+{"kind":"shape","id":"sh/vu9knih4","slide":3,"bbox":[640,172,-420,58]}
+{"kind":"shape","id":"sh/29gr2p8n","slide":3,"bbox":[640,172,0,58]}
+{"kind":"shape","id":"sh/donyd0z6","slide":3,"bbox":[640,172,420,58]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":3,"text":"Access Layer","textPreview":"Access Layer","textChars":12,"textLines":1,"bbox":[80,230,280,54]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":3,"text":"Application Layer","textPreview":"Application Layer","textChars":17,"textLines":1,"bbox":[500,230,280,54]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":3,"text":"Data & Secret Layer","textPreview":"Data & Secret Layer","textChars":19,"textLines":1,"bbox":[920,230,280,54]}
+{"kind":"shape","id":"sh/szqtcj6t","slide":3,"bbox":[220,284,-70,61]}
+{"kind":"shape","id":"sh/lkjm1cfa","slide":3,"bbox":[220,284,70,61]}
+{"kind":"shape","id":"sh/ahoza1gv","slide":3,"bbox":[640,284,0,61]}
+{"kind":"shape","id":"sh/32lszqtc","slide":3,"bbox":[1060,284,-110,61]}
+{"kind":"shape","id":"sh/sneloj2t","slide":3,"bbox":[1060,284,0,61]}
+{"kind":"shape","id":"sh/l87ed8ba","slide":3,"bbox":[1060,284,110,61]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":3,"text":"User\nBrowser","textPreview":"User | Browser","textChars":12,"textLines":2,"bbox":[72,345,155,66]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":3,"text":"Attacker\nPublic URL","textPreview":"Attacker | Public URL","textChars":19,"textLines":2,"bbox":[245,345,155,66]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":3,"text":"Flask Web App\nlocalhost:5000","textPreview":"Flask Web App | localhost:5000","textChars":28,"textLines":2,"bbox":[510,345,260,66]}
+{"kind":"textbox","id":"sh/61032lsz","slide":3,"text":"PostgreSQL\nCustomer data","textPreview":"PostgreSQL | Customer data","textChars":24,"textLines":2,"bbox":[850,345,150,66]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":3,"text":"MinIO\nObject storage","textPreview":"MinIO | Object storage","textChars":20,"textLines":2,"bbox":[1010,345,150,66]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":3,"text":"Secrets\nFernet","textPreview":"Secrets | Fernet","textChars":14,"textLines":2,"bbox":[1170,345,90,66]}
+{"kind":"shape","id":"sh/vy90je9c","slide":3,"bbox":[150,411,0,67]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":3,"bbox":[290,411,0,67]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":3,"bbox":[640,411,0,67]}
+{"kind":"shape","id":"sh/oj2t83it","slide":3,"bbox":[950,411,0,67]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":3,"bbox":[1085,411,0,67]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":3,"bbox":[1215,411,0,67]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":3,"text":"Normal\nrequest","textPreview":"Normal | request","textChars":14,"textLines":2,"bbox":[72,478,155,58]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":3,"text":"Risk\npublic object","textPreview":"Risk | public object","textChars":18,"textLines":2,"bbox":[245,478,155,58]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":3,"text":"Mode\nvulnerable / fixed","textPreview":"Mode | vulnerable / fixed","textChars":23,"textLines":2,"bbox":[510,478,260,58]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":3,"text":"Asset\nPII sample","textPreview":"Asset | PII sample","textChars":16,"textLines":2,"bbox":[850,478,150,58]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":3,"text":"Risk\nbucket policy","textPreview":"Risk | bucket policy","textChars":18,"textLines":2,"bbox":[1010,478,150,58]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":3,"text":"Control\nencrypted","textPreview":"Control | encrypted","textChars":17,"textLines":2,"bbox":[1170,478,90,58]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":3,"text":"Ba điểm demo chính: Public Bucket | IAM Misconfiguration | Credential Leakage","textPreview":"Ba điểm demo chính: Public Bucket | IAM Misconfiguration | Credential Leakage","textChars":77,"textLines":1,"bbox":[170,612,940,54]}
+{"kind":"notes","id":"nt/0h6fhb","slide":3,"text":""}
+{"kind":"slide","id":"sl/knrjcd","slide":4,"title":"Môi trường thực nghiệm","textShapes":4}
+{"kind":"shape","id":"sh/szqtcj6t","slide":4,"bbox":[0,0,1280,52]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":4,"text":"Môi trường thực nghiệm","textPreview":"Môi trường thực nghiệm","textChars":22,"textLines":1,"bbox":[56,10,980,38]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":4,"text":"Docker Compose khởi chạy 4 service: web, postgres, minio và minio-init.","textPreview":"Docker Compose khởi chạy 4 service: web, postgres, minio và minio-init.","textChars":71,"textLines":1,"bbox":[70,85,900,38]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":4,"text":"Bằng chứng môi trường\nđã chạy thành công","textPreview":"Bằng chứng môi trường | đã chạy thành công","textChars":40,"textLines":2,"bbox":[935,575,220,78]}
+{"kind":"image","id":"im/1032lszq","slide":4,"name":"","alt":"02-docker-compose-ps.png","bbox":[70,135,1030,430]}
+{"kind":"notes","id":"nt/knrjcd","slide":4,"text":""}
+{"kind":"slide","id":"sl/w3vawe","slide":5,"title":"Tài sản cần bảo vệ","textShapes":4}
+{"kind":"shape","id":"sh/7adsji5s","slide":5,"bbox":[0,0,1280,52]}
+{"kind":"textbox","id":"sh/wval87ed","slide":5,"text":"Tài sản cần bảo vệ","textPreview":"Tài sản cần bảo vệ","textChars":18,"textLines":1,"bbox":[56,10,980,38]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":5,"text":"PostgreSQL\nDữ liệu khách hàng","textPreview":"PostgreSQL | Dữ liệu khách hàng","textChars":29,"textLines":2,"bbox":[120,490,400,80]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":5,"text":"MinIO\nObject storage","textPreview":"MinIO | Object storage","textChars":20,"textLines":2,"bbox":[720,490,400,80]}
+{"kind":"image","id":"im/je9cvixc","slide":5,"name":"","alt":"05-customers-postgresql.png","bbox":[70,120,540,330]}
+{"kind":"image","id":"im/qtcj6tov","slide":5,"name":"","alt":"10-minio-console-public-bucket.png","bbox":[670,120,540,330]}
+{"kind":"notes","id":"nt/w3vawe","slide":5,"text":""}
+{"kind":"slide","id":"sl/jue9r5","slide":6,"title":"Phân tích rủi ro theo STRIDE","textShapes":20}
+{"kind":"shape","id":"sh/onyd0z61","slide":6,"bbox":[0,0,1280,52]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":6,"text":"Phân tích rủi ro theo STRIDE","textPreview":"Phân tích rủi ro theo STRIDE","textChars":28,"textLines":1,"bbox":[56,10,980,38]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":6,"text":"S","textPreview":"S","textChars":1,"textLines":1,"bbox":[80,112,60,54]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":6,"text":"Spoofing","textPreview":"Spoofing","textChars":8,"textLines":1,"bbox":[160,116,210,36]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":6,"text":"Chiếm tài khoản hoặc dùng credential lộ","textPreview":"Chiếm tài khoản hoặc dùng credential lộ","textChars":39,"textLines":1,"bbox":[390,116,720,40]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":6,"text":"T","textPreview":"T","textChars":1,"textLines":1,"bbox":[80,190,60,54]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":6,"text":"Tampering","textPreview":"Tampering","textChars":9,"textLines":1,"bbox":[160,194,210,36]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":6,"text":"Sửa dữ liệu trong bucket/database","textPreview":"Sửa dữ liệu trong bucket/database","textChars":33,"textLines":1,"bbox":[390,194,720,40]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":6,"text":"R","textPreview":"R","textChars":1,"textLines":1,"bbox":[80,268,60,54]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":6,"text":"Repudiation","textPreview":"Repudiation","textChars":11,"textLines":1,"bbox":[160,272,210,36]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":6,"text":"Thiếu audit log để truy vết","textPreview":"Thiếu audit log để truy vết","textChars":27,"textLines":1,"bbox":[390,272,720,40]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":6,"text":"I","textPreview":"I","textChars":1,"textLines":1,"bbox":[80,346,60,54]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":6,"text":"Info Disclosure","textPreview":"Info Disclosure","textChars":15,"textLines":1,"bbox":[160,350,210,36]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":6,"text":"Bucket public, secret plaintext","textPreview":"Bucket public, secret plaintext","textChars":31,"textLines":1,"bbox":[390,350,720,40]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":6,"text":"D","textPreview":"D","textChars":1,"textLines":1,"bbox":[80,424,60,54]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":6,"text":"DoS","textPreview":"DoS","textChars":3,"textLines":1,"bbox":[160,428,210,36]}
+{"kind":"textbox","id":"sh/ulwval87","slide":6,"text":"Request bất thường gây quá tải","textPreview":"Request bất thường gây quá tải","textChars":30,"textLines":1,"bbox":[390,428,720,40]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":6,"text":"E","textPreview":"E","textChars":1,"textLines":1,"bbox":[80,502,60,54]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":6,"text":"Privilege","textPreview":"Privilege","textChars":9,"textLines":1,"bbox":[160,506,210,36]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":6,"text":"User thường có quyền admin","textPreview":"User thường có quyền admin","textChars":26,"textLines":1,"bbox":[390,506,720,40]}
+{"kind":"notes","id":"nt/jue9r5","slide":6,"text":""}
+{"kind":"slide","id":"sl/mlzxw8","slide":7,"title":"Lỗi 1: Public Storage Bucket","textShapes":3}
+{"kind":"shape","id":"sh/mtwra5gb","slide":7,"bbox":[0,0,1280,52]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":7,"text":"Lỗi 1: Public Storage Bucket","textPreview":"Lỗi 1: Public Storage Bucket","textChars":28,"textLines":1,"bbox":[56,10,980,38]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":7,"text":"Object customers.csv có thể mở trực tiếp qua URL\nkhông cần xác thực","textPreview":"Object customers.csv có thể mở trực tiếp qua URL | không cần xác thực","textChars":67,"textLines":2,"bbox":[220,500,800,76]}
+{"kind":"image","id":"im/2t83itgf","slide":7,"name":"","alt":"06-storage-public-bucket.png","bbox":[70,115,530,350]}
+{"kind":"image","id":"im/re1w7mp0","slide":7,"name":"","alt":"07-public-object-customers-csv.png","bbox":[650,115,530,350]}
+{"kind":"notes","id":"nt/mlzxw8","slide":7,"text":""}
+{"kind":"slide","id":"sl/89c1hd","slide":8,"title":"Lỗi 2: IAM Misconfiguration","textShapes":3}
+{"kind":"shape","id":"sh/jqh0fepk","slide":8,"bbox":[0,0,1280,52]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":8,"text":"Lỗi 2: IAM Misconfiguration","textPreview":"Lỗi 2: IAM Misconfiguration","textChars":27,"textLines":1,"bbox":[56,10,980,38]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":8,"text":"• alice là tài khoản người dùng thường\n• Trong chế độ vulnerable vẫn truy cập được /admin\n• Nguyên nhân: kiểm tra quyền chưa đúng ở server side","textPreview":"• alice là tài khoản người dùng thường | • Trong chế độ vulnerable vẫn truy cập được /admin | • Nguyên nhân: kiểm tra quyền chưa đúng ở s...","textChars":143,"textLines":3,"bbox":[890,150,310,260]}
+{"kind":"image","id":"im/7ed8bat4","slide":8,"name":"","alt":"08-admin-vulnerable-alice.png","bbox":[90,120,760,390]}
+{"kind":"notes","id":"nt/89c1hd","slide":8,"text":""}
+{"kind":"slide","id":"sl/mbtmxy","slide":9,"title":"Lỗi 3: Credential Leakage","textShapes":3}
+{"kind":"shape","id":"sh/byhgn29g","slide":9,"bbox":[0,0,1280,52]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":9,"text":"Lỗi 3: Credential Leakage","textPreview":"Lỗi 3: Credential Leakage","textChars":25,"textLines":1,"bbox":[56,10,980,38]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":9,"text":"DB password, access key và secret key xuất hiện ở dạng rõ","textPreview":"DB password, access key và secret key xuất hiện ở dạng rõ","textChars":57,"textLines":1,"bbox":[160,520,900,64]}
+{"kind":"image","id":"im/7adsji5s","slide":9,"name":"","alt":"09-config-risk-plaintext.png","bbox":[80,115,610,365]}
+{"kind":"image","id":"im/epkzupwb","slide":9,"name":"","alt":"11-1-before.png","bbox":[735,115,405,365]}
+{"kind":"notes","id":"nt/mbtmxy","slide":9,"text":""}
+{"kind":"slide","id":"sl/ll1jcl","slide":10,"title":"Chuyển sang trạng thái fixed","textShapes":4}
+{"kind":"shape","id":"sh/2p8nqxs7","slide":10,"bbox":[0,0,1280,52]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":10,"text":"Chuyển sang trạng thái fixed","textPreview":"Chuyển sang trạng thái fixed","textChars":28,"textLines":1,"bbox":[56,10,980,38]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":10,"text":"Before\nAPP_MODE=vulnerable\nSECRET_MODE=plaintext","textPreview":"Before | APP_MODE=vulnerable | SECRET_MODE=plaintext","textChars":48,"textLines":3,"bbox":[125,505,390,92]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":10,"text":"After\nAPP_MODE=fixed\nSECRET_MODE=encrypted","textPreview":"After | APP_MODE=fixed | SECRET_MODE=encrypted","textChars":42,"textLines":3,"bbox":[765,505,390,92]}
+{"kind":"image","id":"im/mhk3q5o7","slide":10,"name":"","alt":"11-1-before.png","bbox":[95,120,455,360]}
+{"kind":"image","id":"im/b2hwfyxo","slide":10,"name":"","alt":"11-2-after.png","bbox":[730,120,455,360]}
+{"kind":"notes","id":"nt/ll1jcl","slide":10,"text":""}
+{"kind":"slide","id":"sl/mzlipg","slide":11,"title":"Kết quả sau khắc phục","textShapes":4}
+{"kind":"shape","id":"sh/1cfa9w3m","slide":11,"bbox":[0,0,1280,52]}
+{"kind":"textbox","id":"sh/ulwval87","slide":11,"text":"Kết quả sau khắc phục","textPreview":"Kết quả sau khắc phục","textChars":21,"textLines":1,"bbox":[56,10,980,38]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":11,"text":"alice bị chặn khỏi /admin","textPreview":"alice bị chặn khỏi /admin","textChars":25,"textLines":1,"bbox":[120,490,400,75]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":11,"text":"object private, truy cập trực tiếp bị từ chối","textPreview":"object private, truy cập trực tiếp bị từ chối","textChars":45,"textLines":1,"bbox":[720,490,420,75]}
+{"kind":"image","id":"im/1gvy90je","slide":11,"name":"","alt":"11-admin-fixed-alice-denied.png","bbox":[70,120,540,330]}
+{"kind":"image","id":"im/8z25kb6x","slide":11,"name":"","alt":"13-public-object-denied-fixed.png","bbox":[670,120,540,330]}
+{"kind":"notes","id":"nt/mzlipg","slide":11,"text":""}
+{"kind":"slide","id":"sl/mlbmh2","slide":12,"title":"Secret được mã hóa","textShapes":3}
+{"kind":"shape","id":"sh/8v6psfil","slide":12,"bbox":[0,0,1280,52]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":12,"text":"Secret được mã hóa","textPreview":"Secret được mã hóa","textChars":18,"textLines":1,"bbox":[56,10,980,38]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":12,"text":"• Secret được tách khỏi cấu hình trực tiếp\n• Ứng dụng chỉ giải mã khi chạy\n• Giảm tác động nếu source/config bị lộ","textPreview":"• Secret được tách khỏi cấu hình trực tiếp | • Ứng dụng chỉ giải mã khi chạy | • Giảm tác động nếu source/config bị lộ","textChars":114,"textLines":3,"bbox":[910,155,285,260]}
+{"kind":"image","id":"im/kre1w7mp","slide":12,"name":"","alt":"14-config-risk-encrypted.png","bbox":[100,120,760,390]}
+{"kind":"notes","id":"nt/mlbmh2","slide":12,"text":""}
+{"kind":"slide","id":"sl/xbqapy","slide":13,"title":"So sánh trước và sau","textShapes":17}
+{"kind":"shape","id":"sh/bq1oryts","slide":13,"bbox":[0,0,1280,52]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":13,"text":"So sánh trước và sau","textPreview":"So sánh trước và sau","textChars":20,"textLines":1,"bbox":[56,10,980,38]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":13,"text":"Hạng mục","textPreview":"Hạng mục","textChars":8,"textLines":1,"bbox":[72,145,230,52]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":13,"text":"Trước khi khắc phục","textPreview":"Trước khi khắc phục","textChars":19,"textLines":1,"bbox":[302,145,430,52]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":13,"text":"Sau khi khắc phục","textPreview":"Sau khi khắc phục","textChars":17,"textLines":1,"bbox":[732,145,430,52]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":13,"text":"Public Bucket","textPreview":"Public Bucket","textChars":13,"textLines":1,"bbox":[72,197,230,74]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":13,"text":"Object trong MinIO mở trực tiếp không cần xác thực","textPreview":"Object trong MinIO mở trực tiếp không cần xác thực","textChars":50,"textLines":1,"bbox":[302,197,430,74]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":13,"text":"Bucket private, truy cập trực tiếp bị từ chối","textPreview":"Bucket private, truy cập trực tiếp bị từ chối","textChars":45,"textLines":1,"bbox":[732,197,430,74]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":13,"text":"IAM","textPreview":"IAM","textChars":3,"textLines":1,"bbox":[72,271,230,74]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":13,"text":"User thường alice truy cập được /admin","textPreview":"User thường alice truy cập được /admin","textChars":38,"textLines":1,"bbox":[302,271,430,74]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":13,"text":"alice bị chặn khỏi trang quản trị","textPreview":"alice bị chặn khỏi trang quản trị","textChars":33,"textLines":1,"bbox":[732,271,430,74]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":13,"text":"Credential","textPreview":"Credential","textChars":10,"textLines":1,"bbox":[72,345,230,74]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":13,"text":"DB password và MinIO key ở dạng rõ","textPreview":"DB password và MinIO key ở dạng rõ","textChars":34,"textLines":1,"bbox":[302,345,430,74]}
+{"kind":"textbox","id":"sh/ulwval87","slide":13,"text":"Secret được tách riêng và mã hóa","textPreview":"Secret được tách riêng và mã hóa","textChars":32,"textLines":1,"bbox":[732,345,430,74]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":13,"text":"Rủi ro","textPreview":"Rủi ro","textChars":6,"textLines":1,"bbox":[72,419,230,74]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":13,"text":"Có nguy cơ rò rỉ dữ liệu khách hàng và secret","textPreview":"Có nguy cơ rò rỉ dữ liệu khách hàng và secret","textChars":45,"textLines":1,"bbox":[302,419,430,74]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":13,"text":"Giảm rủi ro bằng least privilege và encrypted secret","textPreview":"Giảm rủi ro bằng least privilege và encrypted secret","textChars":52,"textLines":1,"bbox":[732,419,430,74]}
+{"kind":"notes","id":"nt/xbqapy","slide":13,"text":""}
+{"kind":"slide","id":"sl/ii4j12","slide":14,"title":"Kết luận và demo trực tiếp","textShapes":5}
+{"kind":"shape","id":"sh/rmhk3q5o","slide":14,"bbox":[0,0,1280,52]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":14,"text":"Kết luận và demo trực tiếp","textPreview":"Kết luận và demo trực tiếp","textChars":26,"textLines":1,"bbox":[56,10,980,38]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1160,12,70,32]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":14,"text":"• Cloud security phụ thuộc mạnh vào cấu hình và phân quyền\n• Ba lỗi demo đều phổ biến: public bucket, quyền quá mức, secret plaintext\n• Biện pháp chính: private-by-default, least privilege, encrypted secret, audit log","textPreview":"• Cloud security phụ thuộc mạnh vào cấu hình và phân quyền | • Ba lỗi demo đều phổ biến: public bucket, quyền quá mức, secret plaintext |...","textChars":217,"textLines":3,"bbox":[80,120,690,250]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":14,"text":"Live demo đề xuất\n1. /storage public object\n2. alice truy cập /admin\n3. chuyển sang fixed\n4. object/admin bị chặn","textPreview":"Live demo đề xuất | 1. /storage public object | 2. alice truy cập /admin | 3. chuyển sang fixed | 4. object/admin bị chặn","textChars":113,"textLines":5,"bbox":[830,130,310,300]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":14,"text":"Thông điệp chính: cấu hình nhỏ có thể tạo rủi ro lớn, nhưng kiểm soát đúng giúp giảm đáng kể bề mặt tấn công.","textPreview":"Thông điệp chính: cấu hình nhỏ có thể tạo rủi ro lớn, nhưng kiểm soát đúng giúp giảm đáng kể bề mặt tấn công.","textChars":109,"textLines":1,"bbox":[95,535,1030,54]}
+{"kind":"notes","id":"nt/ii4j12","slide":14,"text":""}

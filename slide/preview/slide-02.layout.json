@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/02sorz",
-    "id": "02sorz",
+    "aid": "sl/c4nqan",
+    "id": "c4nqan",
     "slide": 2,
-    "layoutId": "ab195c25-470c-4ece-9275-b2ac404119c7",
+    "layoutId": "a3d19759-05c6-43b0-bc42-ab6591947ccd",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "097bd0f2-067b-434c-b209-06ac3ad660f6",
+    "masterLayoutId": "55fe3e53-87e2-42a2-a54c-d9f62e9f11cf",
     "masterLayoutName": "Master",
     "backgroundColor": "#FFFFFF",
     "frame": {
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "ab195c25-470c-4ece-9275-b2ac404119c7",
+      "id": "a3d19759-05c6-43b0-bc42-ab6591947ccd",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "097bd0f2-067b-434c-b209-06ac3ad660f6",
+      "parentLayoutId": "55fe3e53-87e2-42a2-a54c-d9f62e9f11cf",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "097bd0f2-067b-434c-b209-06ac3ad660f6",
+      "id": "55fe3e53-87e2-42a2-a54c-d9f62e9f11cf",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/u9knih4b",
+      "aid": "sh/1kre1w7m",
       "id": "1",
       "bbox": [
         0,
@@ -81,7 +81,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/1032lszq",
+      "aid": "sh/uxc3ylc7",
       "id": "2",
       "bbox": [
         56,
@@ -90,8 +90,8 @@
         38
       ],
       "geometry": "rect",
-      "text": "Mục tiêu và bố cục",
-      "textPreview": "Mục tiêu và bố cục",
+      "text": "Mục tiêu, phạm vi và sản phẩm",
+      "textPreview": "Mục tiêu, phạm vi và sản phẩm",
       "resolvedFontSize": 28,
       "resolvedTextStyle": {
         "fontSize": 28,
@@ -111,14 +111,14 @@
         "lines": [
           {
             "index": 1,
-            "text": "Mục tiêu và bố cục"
+            "text": "Mục tiêu, phạm vi và sản phẩm"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "Mục tiêu và bố cục",
+          "text": "Mục tiêu, phạm vi và sản phẩm",
           "resolvedTextStyle": {
             "fontSize": 28,
             "color": "#FFFFFF",
@@ -128,7 +128,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "Mục tiêu và bố cục",
+              "text": "Mục tiêu, phạm vi và sản phẩm",
               "fontSize": 28,
               "color": "#FFFFFF",
               "bold": true,
@@ -144,7 +144,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/cfa9w3m9",
+      "aid": "sh/ji5snelo",
       "id": "3",
       "bbox": [
         1160,
@@ -207,22 +207,22 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/jm1cfa9w",
+      "aid": "sh/crmhk3q5",
       "id": "4",
       "bbox": [
-        80,
-        135,
-        760,
-        260
+        72,
+        85,
+        1020,
+        42
       ],
       "geometry": "rect",
-      "text": "• Tổng quan điện toán đám mây và mô hình chia sẻ trách nhiệm\n• Phân tích rủi ro: public bucket, IAM sai, credential leakage\n• Xây dựng lab demo bằng Docker Compose\n• So sánh trạng thái vulnerable và fixed",
-      "textPreview": "• Tổng quan điện toán đám mây và mô hình chia sẻ trách nhiệm | • Phân tích rủi ro: public bucket, IAM sai, credential leakage | • Xây dựn...",
-      "resolvedFontSize": 26,
+      "text": "Đề tài không chỉ tổng hợp lý thuyết, mà có môi trường demo để quan sát lỗi cấu hình và cách khắc phục.",
+      "textPreview": "Đề tài không chỉ tổng hợp lý thuyết, mà có môi trường demo để quan sát lỗi cấu hình và cách khắc phục.",
+      "resolvedFontSize": 22,
       "resolvedTextStyle": {
-        "fontSize": 26,
+        "fontSize": 22,
         "typeface": "+mn-lt",
-        "color": "#17324D",
+        "color": "#5F6B7A",
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -232,98 +232,29 @@
         }
       },
       "textLayout": {
-        "lineCount": 4,
+        "lineCount": 1,
         "lines": [
           {
             "index": 1,
-            "text": "• Tổng quan điện toán đám mây và mô hình chia sẻ trách nhiệm"
-          },
-          {
-            "index": 2,
-            "text": "• Phân tích rủi ro: public bucket, IAM sai, credential leakage"
-          },
-          {
-            "index": 3,
-            "text": "• Xây dựng lab demo bằng Docker Compose"
-          },
-          {
-            "index": 4,
-            "text": "• So sánh trạng thái vulnerable và fixed"
+            "text": "Đề tài không chỉ tổng hợp lý thuyết, mà có môi trường demo để quan sát lỗi cấu hình và cách khắc phục."
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "• Tổng quan điện toán đám mây và mô hình chia sẻ trách nhiệm",
+          "text": "Đề tài không chỉ tổng hợp lý thuyết, mà có môi trường demo để quan sát lỗi cấu hình và cách khắc phục.",
           "resolvedTextStyle": {
-            "fontSize": 26,
-            "color": "#17324D",
+            "fontSize": 22,
+            "color": "#5F6B7A",
             "alignment": "left"
           },
           "runs": [
             {
               "index": 1,
-              "text": "• Tổng quan điện toán đám mây và mô hình chia sẻ trách nhiệm",
-              "fontSize": 26,
-              "color": "#17324D",
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        },
-        {
-          "index": 2,
-          "text": "• Phân tích rủi ro: public bucket, IAM sai, credential leakage",
-          "resolvedTextStyle": {
-            "fontSize": 26,
-            "color": "#17324D",
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "• Phân tích rủi ro: public bucket, IAM sai, credential leakage",
-              "fontSize": 26,
-              "color": "#17324D",
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        },
-        {
-          "index": 3,
-          "text": "• Xây dựng lab demo bằng Docker Compose",
-          "resolvedTextStyle": {
-            "fontSize": 26,
-            "color": "#17324D",
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "• Xây dựng lab demo bằng Docker Compose",
-              "fontSize": 26,
-              "color": "#17324D",
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        },
-        {
-          "index": 4,
-          "text": "• So sánh trạng thái vulnerable và fixed",
-          "resolvedTextStyle": {
-            "fontSize": 26,
-            "color": "#17324D",
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "• So sánh trạng thái vulnerable và fixed",
-              "fontSize": 26,
-              "color": "#17324D",
+              "text": "Đề tài không chỉ tổng hợp lý thuyết, mà có môi trường demo để quan sát lỗi cấu hình và cách khắc phục.",
+              "fontSize": 22,
+              "color": "#5F6B7A",
               "alignment": "left"
             }
           ],
@@ -336,17 +267,17 @@
       "order": 5,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/u18jqh0f",
+      "aid": "sh/1cfa9w3m",
       "id": "5",
       "bbox": [
-        875,
-        145,
-        280,
-        280
+        78,
+        158,
+        300,
+        92
       ],
       "geometry": "roundRect",
-      "text": "Luồng trình bày\n1. Lý thuyết\n2. Rủi ro\n3. Demo\n4. Khắc phục",
-      "textPreview": "Luồng trình bày | 1. Lý thuyết | 2. Rủi ro | 3. Demo | 4. Khắc phục",
+      "text": "1\nNền tảng cloud",
+      "textPreview": "1 | Nền tảng cloud",
       "resolvedFontSize": 24,
       "resolvedTextStyle": {
         "fontSize": 24,
@@ -362,34 +293,22 @@
         }
       },
       "textLayout": {
-        "lineCount": 5,
+        "lineCount": 2,
         "lines": [
           {
             "index": 1,
-            "text": "Luồng trình bày"
+            "text": "1"
           },
           {
             "index": 2,
-            "text": "1. Lý thuyết"
-          },
-          {
-            "index": 3,
-            "text": "2. Rủi ro"
-          },
-          {
-            "index": 4,
-            "text": "3. Demo"
-          },
-          {
-            "index": 5,
-            "text": "4. Khắc phục"
+            "text": "Nền tảng cloud"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "Luồng trình bày",
+          "text": "1",
           "resolvedTextStyle": {
             "fontSize": 24,
             "color": "#1F4E79",
@@ -399,7 +318,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "Luồng trình bày",
+              "text": "1",
               "fontSize": 24,
               "color": "#1F4E79",
               "bold": true,
@@ -410,7 +329,7 @@
         },
         {
           "index": 2,
-          "text": "1. Lý thuyết",
+          "text": "Nền tảng cloud",
           "resolvedTextStyle": {
             "fontSize": 24,
             "color": "#1F4E79",
@@ -420,70 +339,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "1. Lý thuyết",
-              "fontSize": 24,
-              "color": "#1F4E79",
-              "bold": true,
-              "alignment": "center"
-            }
-          ],
-          "marginLeft": 0
-        },
-        {
-          "index": 3,
-          "text": "2. Rủi ro",
-          "resolvedTextStyle": {
-            "fontSize": 24,
-            "color": "#1F4E79",
-            "bold": true,
-            "alignment": "center"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "2. Rủi ro",
-              "fontSize": 24,
-              "color": "#1F4E79",
-              "bold": true,
-              "alignment": "center"
-            }
-          ],
-          "marginLeft": 0
-        },
-        {
-          "index": 4,
-          "text": "3. Demo",
-          "resolvedTextStyle": {
-            "fontSize": 24,
-            "color": "#1F4E79",
-            "bold": true,
-            "alignment": "center"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "3. Demo",
-              "fontSize": 24,
-              "color": "#1F4E79",
-              "bold": true,
-              "alignment": "center"
-            }
-          ],
-          "marginLeft": 0
-        },
-        {
-          "index": 5,
-          "text": "4. Khắc phục",
-          "resolvedTextStyle": {
-            "fontSize": 24,
-            "color": "#1F4E79",
-            "bold": true,
-            "alignment": "center"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "4. Khắc phục",
+              "text": "Nền tảng cloud",
               "fontSize": 24,
               "color": "#1F4E79",
               "bold": true,
@@ -493,8 +349,575 @@
           "marginLeft": 0
         }
       ],
-      "fillColor": "#F4F8FC",
+      "fillColor": "#EEF4FA",
       "lineColor": "#1F4E79",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ulwval87",
+      "id": "6",
+      "bbox": [
+        92,
+        275,
+        280,
+        120
+      ],
+      "geometry": "rect",
+      "text": "• IaaS, PaaS, SaaS\n• Public, Private, Hybrid\n• Shared Responsibility Model",
+      "textPreview": "• IaaS, PaaS, SaaS | • Public, Private, Hybrid | • Shared Responsibility Model",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#17324D",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• IaaS, PaaS, SaaS"
+          },
+          {
+            "index": 2,
+            "text": "• Public, Private, Hybrid"
+          },
+          {
+            "index": 3,
+            "text": "• Shared Responsibility Model"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• IaaS, PaaS, SaaS",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#17324D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• IaaS, PaaS, SaaS",
+              "fontSize": 20,
+              "color": "#17324D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "• Public, Private, Hybrid",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#17324D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Public, Private, Hybrid",
+              "fontSize": 20,
+              "color": "#17324D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "• Shared Responsibility Model",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#17324D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Shared Responsibility Model",
+              "fontSize": 20,
+              "color": "#17324D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6tovaho",
+      "id": "7",
+      "bbox": [
+        490,
+        158,
+        300,
+        92
+      ],
+      "geometry": "roundRect",
+      "text": "2\nRủi ro bảo mật",
+      "textPreview": "2 | Rủi ro bảo mật",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#B3261E",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2"
+          },
+          {
+            "index": 2,
+            "text": "Rủi ro bảo mật"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#B3261E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2",
+              "fontSize": 24,
+              "color": "#B3261E",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Rủi ro bảo mật",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#B3261E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Rủi ro bảo mật",
+              "fontSize": 24,
+              "color": "#B3261E",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFF2F0",
+      "lineColor": "#B3261E",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8nqxs72x",
+      "id": "8",
+      "bbox": [
+        505,
+        275,
+        280,
+        120
+      ],
+      "geometry": "rect",
+      "text": "• Public Storage Bucket\n• IAM Misconfiguration\n• Credential Leakage",
+      "textPreview": "• Public Storage Bucket | • IAM Misconfiguration | • Credential Leakage",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#17324D",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• Public Storage Bucket"
+          },
+          {
+            "index": 2,
+            "text": "• IAM Misconfiguration"
+          },
+          {
+            "index": 3,
+            "text": "• Credential Leakage"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• Public Storage Bucket",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#17324D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Public Storage Bucket",
+              "fontSize": 20,
+              "color": "#17324D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "• IAM Misconfiguration",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#17324D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• IAM Misconfiguration",
+              "fontSize": 20,
+              "color": "#17324D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "• Credential Leakage",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#17324D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Credential Leakage",
+              "fontSize": 20,
+              "color": "#17324D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/18jqh0fe",
+      "id": "9",
+      "bbox": [
+        902,
+        158,
+        300,
+        92
+      ],
+      "geometry": "roundRect",
+      "text": "3\nDemo & đánh giá",
+      "textPreview": "3 | Demo & đánh giá",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#2E7D32",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3"
+          },
+          {
+            "index": 2,
+            "text": "Demo & đánh giá"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#2E7D32",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3",
+              "fontSize": 24,
+              "color": "#2E7D32",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Demo & đánh giá",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#2E7D32",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Demo & đánh giá",
+              "fontSize": 24,
+              "color": "#2E7D32",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#F1FAF3",
+      "lineColor": "#2E7D32",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/psfil0rq",
+      "id": "10",
+      "bbox": [
+        917,
+        275,
+        280,
+        120
+      ],
+      "geometry": "rect",
+      "text": "• Docker Compose lab\n• Ảnh before/after\n• Bảng so sánh kết quả",
+      "textPreview": "• Docker Compose lab | • Ảnh before/after | • Bảng so sánh kết quả",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#17324D",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• Docker Compose lab"
+          },
+          {
+            "index": 2,
+            "text": "• Ảnh before/after"
+          },
+          {
+            "index": 3,
+            "text": "• Bảng so sánh kết quả"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• Docker Compose lab",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#17324D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Docker Compose lab",
+              "fontSize": 20,
+              "color": "#17324D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "• Ảnh before/after",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#17324D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Ảnh before/after",
+              "fontSize": 20,
+              "color": "#17324D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "• Bảng so sánh kết quả",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#17324D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Bảng so sánh kết quả",
+              "fontSize": 20,
+              "color": "#17324D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7mp0bi9",
+      "id": "11",
+      "bbox": [
+        164,
+        505,
+        950,
+        78
+      ],
+      "geometry": "roundRect",
+      "text": "Output cuối cùng: báo cáo LaTeX, slide PowerPoint, ảnh minh chứng và flow live demo cho buổi thuyết trình.",
+      "textPreview": "Output cuối cùng: báo cáo LaTeX, slide PowerPoint, ảnh minh chứng và flow live demo cho buổi thuyết trình.",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#17324D",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Output cuối cùng: báo cáo LaTeX, slide PowerPoint, ảnh minh chứng và flow live demo cho buổi"
+          },
+          {
+            "index": 2,
+            "text": "thuyết trình."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Output cuối cùng: báo cáo LaTeX, slide PowerPoint, ảnh minh chứng và flow live demo cho buổi thuyết trình.",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#17324D",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Output cuối cùng: báo cáo LaTeX, slide PowerPoint, ảnh minh chứng và flow live demo cho buổi thuyết trình.",
+              "fontSize": 22,
+              "color": "#17324D",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C8D3E0",
       "lineWidth": 1
     }
   ],

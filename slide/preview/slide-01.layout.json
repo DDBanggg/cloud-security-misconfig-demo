@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/6ej8g5",
-    "id": "6ej8g5",
+    "aid": "sl/qfmqii",
+    "id": "qfmqii",
     "slide": 1,
-    "layoutId": "ab195c25-470c-4ece-9275-b2ac404119c7",
+    "layoutId": "a3d19759-05c6-43b0-bc42-ab6591947ccd",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "097bd0f2-067b-434c-b209-06ac3ad660f6",
+    "masterLayoutId": "55fe3e53-87e2-42a2-a54c-d9f62e9f11cf",
     "masterLayoutName": "Master",
     "backgroundColor": "#FFFFFF",
     "frame": {
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "ab195c25-470c-4ece-9275-b2ac404119c7",
+      "id": "a3d19759-05c6-43b0-bc42-ab6591947ccd",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "097bd0f2-067b-434c-b209-06ac3ad660f6",
+      "parentLayoutId": "55fe3e53-87e2-42a2-a54c-d9f62e9f11cf",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "097bd0f2-067b-434c-b209-06ac3ad660f6",
+      "id": "55fe3e53-87e2-42a2-a54c-d9f62e9f11cf",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/7qpg3ex0",
+      "aid": "sh/vu9knih4",
       "id": "1",
       "bbox": [
         0,
@@ -81,20 +81,100 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0bi9s36h",
+      "aid": "sh/kf6dcbul",
       "id": "2",
       "bbox": [
+        0,
+        0,
+        18,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#1F4E79",
+      "lineColor": "#1F4E79",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0z61032",
+      "id": "3",
+      "bbox": [
         70,
-        120,
+        70,
+        520,
+        32
+      ],
+      "geometry": "rect",
+      "text": "BÁO CÁO & DEMO PROJECT",
+      "textPreview": "BÁO CÁO & DEMO PROJECT",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#1F4E79",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "BÁO CÁO & DEMO PROJECT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "BÁO CÁO & DEMO PROJECT",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#1F4E79",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "BÁO CÁO & DEMO PROJECT",
+              "fontSize": 19,
+              "color": "#1F4E79",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2lszqtcj",
+      "id": "4",
+      "bbox": [
+        70,
+        118,
         760,
         150
       ],
       "geometry": "rect",
       "text": "Điện toán đám mây và\nBảo mật điện toán đám mây",
       "textPreview": "Điện toán đám mây và | Bảo mật điện toán đám mây",
-      "resolvedFontSize": 48,
+      "resolvedFontSize": 50,
       "resolvedTextStyle": {
-        "fontSize": 48,
+        "fontSize": 50,
         "typeface": "+mn-lt",
         "color": "#17324D",
         "bold": true,
@@ -124,7 +204,7 @@
           "index": 1,
           "text": "Điện toán đám mây và",
           "resolvedTextStyle": {
-            "fontSize": 48,
+            "fontSize": 50,
             "color": "#17324D",
             "bold": true,
             "alignment": "left"
@@ -133,7 +213,7 @@
             {
               "index": 1,
               "text": "Điện toán đám mây và",
-              "fontSize": 48,
+              "fontSize": 50,
               "color": "#17324D",
               "bold": true,
               "alignment": "left"
@@ -145,7 +225,7 @@
           "index": 2,
           "text": "Bảo mật điện toán đám mây",
           "resolvedTextStyle": {
-            "fontSize": 48,
+            "fontSize": 50,
             "color": "#17324D",
             "bold": true,
             "alignment": "left"
@@ -154,7 +234,7 @@
             {
               "index": 1,
               "text": "Bảo mật điện toán đám mây",
-              "fontSize": 48,
+              "fontSize": 50,
               "color": "#17324D",
               "bold": true,
               "alignment": "left"
@@ -166,20 +246,20 @@
       "lineWidth": 0
     },
     {
-      "order": 3,
+      "order": 5,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/pwb2hwfy",
-      "id": "3",
+      "aid": "sh/v6psfil0",
+      "id": "5",
       "bbox": [
         74,
-        294,
-        780,
-        40
+        300,
+        835,
+        42
       ],
       "geometry": "rect",
-      "text": "Phân tích rủi ro, lỗ hổng và cơ chế bảo vệ dữ liệu",
-      "textPreview": "Phân tích rủi ro, lỗ hổng và cơ chế bảo vệ dữ liệu",
+      "text": "Phân tích rủi ro, lỗ hổng và cơ chế bảo vệ dữ liệu trong môi trường cloud",
+      "textPreview": "Phân tích rủi ro, lỗ hổng và cơ chế bảo vệ dữ liệu trong môi trường cloud",
       "resolvedFontSize": 24,
       "resolvedTextStyle": {
         "fontSize": 24,
@@ -198,14 +278,14 @@
         "lines": [
           {
             "index": 1,
-            "text": "Phân tích rủi ro, lỗ hổng và cơ chế bảo vệ dữ liệu"
+            "text": "Phân tích rủi ro, lỗ hổng và cơ chế bảo vệ dữ liệu trong môi trường cloud"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "Phân tích rủi ro, lỗ hổng và cơ chế bảo vệ dữ liệu",
+          "text": "Phân tích rủi ro, lỗ hổng và cơ chế bảo vệ dữ liệu trong môi trường cloud",
           "resolvedTextStyle": {
             "fontSize": 24,
             "color": "#5F6B7A",
@@ -214,7 +294,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "Phân tích rủi ro, lỗ hổng và cơ chế bảo vệ dữ liệu",
+              "text": "Phân tích rủi ro, lỗ hổng và cơ chế bảo vệ dữ liệu trong môi trường cloud",
               "fontSize": 24,
               "color": "#5F6B7A",
               "alignment": "left"
@@ -226,20 +306,20 @@
       "lineWidth": 0
     },
     {
-      "order": 4,
+      "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ed8v6psf",
-      "id": "4",
+      "aid": "sh/knih4byh",
+      "id": "6",
       "bbox": [
         74,
-        540,
-        780,
-        78
+        555,
+        820,
+        74
       ],
       "geometry": "rect",
-      "text": "Nhập môn An toàn thông tin\nNhóm: Đào Trường Anh, Nguyễn Đồng Minh Anh, Đoàn Đình Bằng",
-      "textPreview": "Nhập môn An toàn thông tin | Nhóm: Đào Trường Anh, Nguyễn Đồng Minh Anh, Đoàn Đình Bằng",
+      "text": "Môn học: Nhập môn An toàn thông tin\nNhóm: Đào Trường Anh - Nguyễn Đồng Minh Anh - Đoàn Đình Bằng",
+      "textPreview": "Môn học: Nhập môn An toàn thông tin | Nhóm: Đào Trường Anh - Nguyễn Đồng Minh Anh - Đoàn Đình Bằng",
       "resolvedFontSize": 19,
       "resolvedTextStyle": {
         "fontSize": 19,
@@ -258,18 +338,18 @@
         "lines": [
           {
             "index": 1,
-            "text": "Nhập môn An toàn thông tin"
+            "text": "Môn học: Nhập môn An toàn thông tin"
           },
           {
             "index": 2,
-            "text": "Nhóm: Đào Trường Anh, Nguyễn Đồng Minh Anh, Đoàn Đình Bằng"
+            "text": "Nhóm: Đào Trường Anh - Nguyễn Đồng Minh Anh - Đoàn Đình Bằng"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "Nhập môn An toàn thông tin",
+          "text": "Môn học: Nhập môn An toàn thông tin",
           "resolvedTextStyle": {
             "fontSize": 19,
             "color": "#17324D",
@@ -278,7 +358,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "Nhập môn An toàn thông tin",
+              "text": "Môn học: Nhập môn An toàn thông tin",
               "fontSize": 19,
               "color": "#17324D",
               "alignment": "left"
@@ -288,7 +368,7 @@
         },
         {
           "index": 2,
-          "text": "Nhóm: Đào Trường Anh, Nguyễn Đồng Minh Anh, Đoàn Đình Bằng",
+          "text": "Nhóm: Đào Trường Anh - Nguyễn Đồng Minh Anh - Đoàn Đình Bằng",
           "resolvedTextStyle": {
             "fontSize": 19,
             "color": "#17324D",
@@ -297,7 +377,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "Nhóm: Đào Trường Anh, Nguyễn Đồng Minh Anh, Đoàn Đình Bằng",
+              "text": "Nhóm: Đào Trường Anh - Nguyễn Đồng Minh Anh - Đoàn Đình Bằng",
               "fontSize": 19,
               "color": "#17324D",
               "alignment": "left"
@@ -309,23 +389,23 @@
       "lineWidth": 0
     },
     {
-      "order": 5,
+      "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/7y1kre1w",
-      "id": "5",
+      "aid": "sh/d8bat47y",
+      "id": "7",
       "bbox": [
-        880,
-        170,
-        300,
-        260
+        895,
+        132,
+        290,
+        275
       ],
       "geometry": "roundRect",
-      "text": "Cloud Security Demo\nFlask + PostgreSQL + MinIO",
-      "textPreview": "Cloud Security Demo | Flask + PostgreSQL + MinIO",
-      "resolvedFontSize": 26,
+      "text": "Sản phẩm thực hiện\n\nBáo cáo LaTeX\nSlide thuyết trình\nCloud Security Demo",
+      "textPreview": "Sản phẩm thực hiện |  | Báo cáo LaTeX | Slide thuyết trình | Cloud Security Demo",
+      "resolvedFontSize": 23,
       "resolvedTextStyle": {
-        "fontSize": 26,
+        "fontSize": 23,
         "typeface": "+mn-lt",
         "color": "#1F4E79",
         "bold": true,
@@ -338,28 +418,36 @@
         }
       },
       "textLayout": {
-        "lineCount": 3,
+        "lineCount": 5,
         "lines": [
           {
             "index": 1,
-            "text": "Cloud Security Demo"
+            "text": "Sản phẩm thực hiện"
           },
           {
             "index": 2,
-            "text": "Flask + PostgreSQL +"
+            "text": ""
           },
           {
             "index": 3,
-            "text": "MinIO"
+            "text": "Báo cáo LaTeX"
+          },
+          {
+            "index": 4,
+            "text": "Slide thuyết trình"
+          },
+          {
+            "index": 5,
+            "text": "Cloud Security Demo"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "Cloud Security Demo",
+          "text": "Sản phẩm thực hiện",
           "resolvedTextStyle": {
-            "fontSize": 26,
+            "fontSize": 23,
             "color": "#1F4E79",
             "bold": true,
             "alignment": "center"
@@ -367,8 +455,8 @@
           "runs": [
             {
               "index": 1,
-              "text": "Cloud Security Demo",
-              "fontSize": 26,
+              "text": "Sản phẩm thực hiện",
+              "fontSize": 23,
               "color": "#1F4E79",
               "bold": true,
               "alignment": "center"
@@ -377,10 +465,10 @@
           "marginLeft": 0
         },
         {
-          "index": 2,
-          "text": "Flask + PostgreSQL + MinIO",
+          "index": 3,
+          "text": "Báo cáo LaTeX",
           "resolvedTextStyle": {
-            "fontSize": 26,
+            "fontSize": 23,
             "color": "#1F4E79",
             "bold": true,
             "alignment": "center"
@@ -388,8 +476,50 @@
           "runs": [
             {
               "index": 1,
-              "text": "Flask + PostgreSQL + MinIO",
-              "fontSize": 26,
+              "text": "Báo cáo LaTeX",
+              "fontSize": 23,
+              "color": "#1F4E79",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "Slide thuyết trình",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#1F4E79",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Slide thuyết trình",
+              "fontSize": 23,
+              "color": "#1F4E79",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "Cloud Security Demo",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#1F4E79",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Cloud Security Demo",
+              "fontSize": 23,
               "color": "#1F4E79",
               "bold": true,
               "alignment": "center"
@@ -400,6 +530,75 @@
       ],
       "fillColor": "#FFFFFF",
       "lineColor": "#1F4E79",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6psfil0r",
+      "id": "8",
+      "bbox": [
+        895,
+        435,
+        290,
+        92
+      ],
+      "geometry": "roundRect",
+      "text": "Tech stack: Flask + PostgreSQL + MinIO + Docker Compose",
+      "textPreview": "Tech stack: Flask + PostgreSQL + MinIO + Docker Compose",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#17324D",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Tech stack: Flask + PostgreSQL +"
+          },
+          {
+            "index": 2,
+            "text": "MinIO + Docker Compose"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Tech stack: Flask + PostgreSQL + MinIO + Docker Compose",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#17324D",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Tech stack: Flask + PostgreSQL + MinIO + Docker Compose",
+              "fontSize": 19,
+              "color": "#17324D",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C8D3E0",
       "lineWidth": 1
     }
   ],
